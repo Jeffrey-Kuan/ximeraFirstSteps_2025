@@ -1,0 +1,22 @@
+\documentclass{ximera}
+
+\usepackage{tabularray}
+
+\begin{document}
+
+\begin{center}
+\begin{tblr}{
+  colspec = {lcr},
+  rowhead=1,
+}
+%\toprule    %% THIS CAUSES COMPILATION TO HANG
+%\hline      %% THIS CAUSES COMPILATION TO HANG
+Left aligned & Centered & Right aligned \\
+% \midrule
+Some text & More text & Final text \\
+Math $x^2$ & \textbf{Bold text} & \textit{Italic text} \\
+%\bottomrule
+\end{tblr}
+\end{center}
+
+\end{document}
