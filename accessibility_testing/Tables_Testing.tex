@@ -1,22 +1,29 @@
 \documentclass{ximera}
 
 \usepackage{tabularray}
+%% must load tabularray first 
+\usepackage{TailorSwiftBotPublic}
+
+\usepackage{xcolor}
 
 \begin{document}
 
 \begin{center}
 \begin{tblr}{
-  colspec = {lcr},
-  rowhead=1,
+  colspec = {Q[l,red]Q[c]Q[r]}, 
+  rowhead=1, 
+  xmcolhead=1
 }
 %\toprule    %% THIS CAUSES COMPILATION TO HANG
 %\hline      %% THIS CAUSES COMPILATION TO HANG
 Left aligned & Centered & Right aligned \\
 % \midrule
 Some text & More text & Final text \\
-Math $x^2$ & \textbf{Bold text} & \textit{Italic text} \\
+Math $x^8$ & \textbf{Bold text} & \textit{Italic text} \\
 %\bottomrule
 \end{tblr}
 \end{center}
 
 \end{document}
+
+
