@@ -27,16 +27,24 @@
     xmcolhead .code:n = \__tblr_keys_gput:nn { xmcolhead } {#1},
   }
 
-\int_new:N \lTblrColHeadInt
+\int_new:N \lTblrxmColHeadInt
+
+\int_new:N \lTblrxmColDiffInt
+
+\int_new:N \lTblrxmRowDiffInt
+
+\int_new:N \lTblrxmRowDiffInd
+
+\int_new:N \lTblrxmColDiffInd
 
 \cs_new_protected:Npn \__tblr_build_col_head_foot:
   {
     %% \lTblrColHeadInt can not be empty, so we append '+ 0'.
-    \int_set:Nn \lTblrColHeadInt
+    \int_set:Nn \lTblrxmColHeadInt
       { \__tblr_prop_item:ne { inner } { xmcolhead } + 0 }
-    \int_compare:nNnTF { \lTblrColHeadInt } > { 0 }
+    \int_compare:nNnTF { \lTblrxmColHeadInt } > { 0 }
       {
-        \__tblr_build_one_table:nnNN {1} { \lTblrColHeadInt }
+        \__tblr_build_one_table:nnNN {1} { \lTblrxmColHeadInt }
           \c_true_bool \c_true_bool
       }
   }
