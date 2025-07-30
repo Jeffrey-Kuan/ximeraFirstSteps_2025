@@ -1,0 +1,9 @@
+gpg: directory '/root/.gnupg' created
+gpg: keybox '/root/.gnupg/pubring.kbx' created
+gpg: /root/.gnupg/trustdb.gpg: trustdb created
+gpg: directory '/root/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/root/.gnupg/openpgp-revocs.d/4A2C010B005FFDB84982F5FFA7745A544A4954FA.rev'
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2026-07-09

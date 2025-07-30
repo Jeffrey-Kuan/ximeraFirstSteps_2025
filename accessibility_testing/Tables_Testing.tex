@@ -70,11 +70,26 @@ Here is an example of a matrix that has no headers at all:
 \big)
 \end{center}
 
+Here is I colspan with heading  demonstrated ... 
+\begin{tblr}{colspec = {Q[c]Q[c]Q[c]},xmcolhead=1}
+ \SetCell[r=2]{c} & 1-2 & 1-3 \\
+     & 2-2 & 2-3     \\
+ 3-1 & 3-2 & 3-3 \\
+\end{tblr}
+
+Here is I rowspan with heading  demonstrated ... 
+\begin{tblr}{colspec = {Q[c]Q[c]Q[c]},rowhead=1}
+ \SetCell[c=2]{c} &  & 1-3 \\
+ 2-1    & 2-2 & 2-3     \\
+ 3-1 & 3-2 & 3-3 \\
+\end{tblr}
+
+Here is ......  rowspan a bit demonstrated ... 
 
 \begin{tblr}{colspec = {Q[c]Q[c]Q[c]}}
  \SetCell[r=2]{c} & 1-2 & 1-3 \\
      & 2-2 & 2-3     \\
- 3-1 & 3-2 & 3-3 \\
+ 3-1 & 3-2 & 3-3 
 \end{tblr}
 
 

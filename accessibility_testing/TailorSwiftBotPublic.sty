@@ -33,9 +33,43 @@
 
 \int_new:N \lTblrxmRowDiffInt
 
-\int_new:N \lTblrxmRowDiffInd
+\int_new:N \lTblrxmCellRowSpanInt
 
-\int_new:N \lTblrxmColDiffInd
+\int_new:N \lTblrxmColGroupCheck
+
+\int_new:N \myInteger
+
+
+
+
+\str_new:N \myString
+
+\tl_new:N \l_my_tl
+
+
+\prop_new:N \l__tblr_testing_prop
+
+\cs_new:Npn \add_integer_entry:nn #1 #2
+  {
+    \prop_put:Nnn \l__tblr_testing_prop { #1 } { #2 }
+  }
+
+\NewDocumentCommand{\AddIntegerEntry}{mm}
+  {
+    \add_integer_entry:nn { #1 } { #2 }
+  }
+
+\AddIntegerEntry{first}{42}
+
+\cs_new:Npn \string_to_int_var:nN #1 #2
+  {
+    \int_set:Nn #2 { #1 }
+  }
+
+\cs_new:Npn \prop_get_to_int:NnN #1 #2 #3
+  {
+    \int_set:Nn #3 { \prop_item:Nn #1 { #2 } }
+  }
 
 \cs_new_protected:Npn \__tblr_build_col_head_foot:
   {
@@ -48,3 +82,35 @@
           \c_true_bool \c_true_bool
       }
   }
+
+\prop_new:N \l__tblr_colgrouptest_prop
+
+\cs_new:Npn \add_integer_entry_v:nn #1 #2
+  {
+    \prop_put:Nnn \l__tblr_colgrouptest_prop { #1 } { #2 }
+  }
+
+\NewDocumentCommand{\AddIntegerEntryV}{mm}
+  {
+    \add_integer_entry_v:nn { #1 } { #2 }
+  }
+
+
+\AddIntegerEntryV{firsttest}{ \l__tblr_j_tl -\int_eval:n {\l__tblr_j_tl + \l__tblr_a_tl - 1} }
+
+    \int_step_variable:nNn { \c@colcount } \l__tblr_j_tl
+      {
+        \int_step_variable:nNn { \c@rowcount } \l__tblr_i_tl
+          {
+            \tl_set:Ne \l__tblr_a_tl
+              {
+                \__tblr_data_item:neen { cell }
+                  { \l__tblr_i_tl } { \l__tblr_j_tl } { colspan }
+              }
+
+              %\AddIntegerEntryV{firsttest}{1}
+
+              
+
+          }
+      }

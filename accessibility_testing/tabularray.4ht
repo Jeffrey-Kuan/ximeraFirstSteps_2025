@@ -69,6 +69,8 @@
   }
 }
 
+
+
 \def\:tblr:vlinestyle#1#2#3#4{
   \tl_set:Ne \l__tblr_t_tl{ \__tblr_spec_item:ne { vline } { [#2](#3) / @vline-width } }
   \def\@tblr@dash{} % remove "dash" word from the variable for correct CSS string
@@ -91,8 +93,12 @@
 % find columns that are covered by rowspan and colspan
   \xdef\HCol{\@arabic\c@colnum}
   \xdef\HRow{\@arabic\c@rownum}
-  \xdef\HMultispan{\lTblrCellColSpanInt}
-  \xdef\HRowspan{\lTblrCellRowSpanInt}
+  %I added the arabic below -- Jeff
+  \xdef\HMultispan{\@arabic\lTblrCellColSpanInt}
+  \xdef\HRowspan{\@arabic\lTblrCellRowSpanInt}
+
+  %\xdef\XMColGroupCheck{\@arabiclTblrxmColGroupCheck}
+  %\xdef\output_test{\@arabic\lTblrxmColGroupCheck}
   \let\CellAttributes\@empty
   \let\CellStyle\@empty
   % calculate ignored cells, if the current cell uses colspan or rowspan
@@ -151,6 +157,23 @@
 
 \HLet\__tblr_get_vcenter_box:N\:gobble
 
+%Jeff moved this here
+\def\output{\@arabic\lTblrxmColGroupCheck}
+\def\:colgroupcheck{
+  \ifnum\lTblrxmColGroupCheck>40
+    test="\output" \space
+  \else
+    \space
+  \fi
+}
+
+\def\:testcheck{
+  \ifnum\myInteger>0
+    test="taylor swift" \space
+  \else
+    \space
+  \fi
+}
 
 \ExplSyntaxOff
 
