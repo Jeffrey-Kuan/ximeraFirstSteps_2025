@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  14 JUL 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  2 AUG 2025 18:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -849,9 +849,11 @@ Package: TailorSwiftBotPublic 2025-07-10 v2025 Make your math WCAG2.1AA complian
 \lTblrxmColHeadInt=\count433
 \lTblrxmColDiffInt=\count434
 \lTblrxmRowDiffInt=\count435
-\lTblrxmRowDiffInd=\count436
-\lTblrxmColDiffInd=\count437
-) (./Tables_Testing.aux)
+\lTblrxmCellRowSpanInt=\count436
+\lTblrxmColGroupCheck=\count437
+\myInteger=\count438
+)
+No file Tables_Testing.aux.
 \openout1 = `Tables_Testing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -872,25 +874,25 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count438
+\scratchcounter=\count439
 \scratchdimen=\dimen353
 \scratchbox=\box102
-\nofMPsegments=\count439
-\nofMParguments=\count440
+\nofMPsegments=\count440
+\nofMParguments=\count441
 \everyMPshowfont=\toks61
-\MPscratchCnt=\count441
+\MPscratchCnt=\count442
 \MPscratchDim=\dimen354
-\MPnumerator=\count442
-\makeMPintoPDFobject=\count443
+\MPnumerator=\count443
+\makeMPintoPDFobject=\count444
 \everyMPtoPDFconversion=\toks62
 )
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
  on input line 9.
 
-\c@lstlisting=\count444
+\c@lstlisting=\count445
 Package hyperref Info: Link coloring ON on input line 9.
 \@outlinefile=\write9
 \openout9 = `Tables_Testing.out'.
@@ -927,15 +929,15 @@ Package rerunfilecheck Info: Checksums for `Tables_Testing.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37735 strings out of 469010
- 863897 string characters out of 5456196
- 1366516 words of memory out of 5000000
- 65508 multiletter control sequences out of 15000+600000
- 633091 words of font info for 62 fonts, out of 8000000 for 9000
+ 37766 strings out of 469010
+ 864535 string characters out of 5456196
+ 1382673 words of memory out of 5000000
+ 65541 multiletter control sequences out of 15000+600000
+ 636232 words of font info for 71 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  121i,6n,124p,750b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Tables_Testing.pdf (1 page, 29789 bytes).
+Output written on Tables_Testing.pdf (1 page, 30427 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream

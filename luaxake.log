@@ -30411,3 +30411,212 @@ TL_20250722 14:44:54: [INFO   ] frost: Publishing to localhost: http://localhost
 TL_20250722 14:44:54: [STATUS ] frost: Forced serving (git push -f ximera publications/7b22b9954b0499aef782dbae2ff2c77ecca31f97)
 TL_20250722 14:44:55: [STATUS ] frost: Forced serving (git push -f ximera 7b22b9954b0499aef782dbae2ff2c77ecca31f97:refs/heads/master)
 TL_20250722 14:44:55: [STATUS ] main : Serve succeeded: Published  publications/7b22b9954b0499aef782dbae2ff2c77ecca31f97to  http://localhost:2000/ximerafirststeps-2025
+ME_20250802 18:05:24: [INFO   ] main : Adding default dependency xmPreamble.tex
+ME_20250802 18:05:24: [INFO   ] main : Set compile_sequence=pdf,html (and output_formats=pdf,html)
+ME_20250802 18:05:24: [INFO   ] main : Processing argument 1: .
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/exerciseList.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/answer.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/hintsAndFollowUp.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivity.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aGraphicsActivity.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/multipleChoice.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/selectAll.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/wordChoice.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesXourse.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Tables_Testing.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/demo.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/exercises/someExercises.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivityVariant.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourseVariant.tex
+ME_20250802 18:05:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourse.tex
+ME_20250802 18:05:24: [STATUS ] main : 2 files need compiling
+ME_20250802 18:05:24: [INFO   ] main :   1 accessibility_testing/Tables_Testing.tex
+ME_20250802 18:05:24: [INFO   ] main :   2 accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:24: [STATUS ] main : Start bake
+ME_20250802 18:05:24: [INFO   ] bake : Added 2 compile commands for file   1/2: accessibility_testing/Tables_Testing.tex
+ME_20250802 18:05:24: [INFO   ] bake : Added 2 compile commands for file   2/2: accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:24: [STATUS ] bake : There are 4 commands to run for 2 files
+ME_20250802 18:05:24: [STATUS ] bake : Command   1/4 (1) starting for  pdf of accessibility_testing/Tables_Testing.tex (pdf|accessibility_testing/Tables_Testing.tex)
+ME_20250802 18:05:24: [STATUS ] bake : Command   2/4 (2) starting for html of accessibility_testing/Tables_Testing.tex (html|accessibility_testing/Tables_Testing.tex)
+ME_20250802 18:05:34: [INFO   ] html : Adapted html being saved as accessibility_testing/Tables_Testing.html (/code/accessibility_testing/Tables_Testing.html)
+ME_20250802 18:05:34: [STATUS ] bake : Command   2/4 (2) returns OK after 9.5 seconds (0 failed) for html of accessibility_testing/Tables_Testing.tex
+ME_20250802 18:05:34: [STATUS ] bake : Command   3/4 (2) starting for html of accessibility_testing/xourse_accessible.tex (html|accessibility_testing/xourse_accessible.tex)
+ME_20250802 18:05:35: [INFO   ] bake : Moving /code/accessibility_testing/Tables_Testing.pdf to ximera-downloads/with-answers/accessibility_testing/Tables_Testing.pdf
+ME_20250802 18:05:35: [STATUS ] bake : Command   1/4 (1) returns OK after 11.1 seconds (0 failed) for pdf of accessibility_testing/Tables_Testing.tex
+ME_20250802 18:05:36: [STATUS ] bake : Command   4/4 (2) starting for  pdf of accessibility_testing/xourse_accessible.tex (pdf|accessibility_testing/xourse_accessible.tex)
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.105] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.108] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.108] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.108] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+ME_20250802 18:05:44: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.108] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+ME_20250802 18:05:44: [WARNING] bake : Compile error in accessibility_testing/xourse_accessible.online.log: skipping further errorlog; 38 errors found
+ME_20250802 18:05:44: [ERROR  ] bake : Compilation of html for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+ME_20250802 18:05:44: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/xourse_accessible.online.html.failed
+ME_20250802 18:05:44: [STATUS ] bake : Command   3/4 (2) returns COMMAND_FAILED after 10.1 seconds (0 failed) for html of accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.3] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.5] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.7] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.14] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.21] Misplaced alignment tab character &. at l.21  & <- Grammy Wins & Grammy Nominations \\
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.21] Misplaced alignment tab character &. at l.21  & Grammy Wins & <- Grammy Nominations \\
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.23] Misplaced alignment tab character &. at l.23 Fearless & <- 4 & 8 \\
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.23] Misplaced alignment tab character &. at l.23 Fearless & 4 & <- 8 \\
+ME_20250802 18:05:50: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.24] Misplaced alignment tab character &. at l.24 1989 & <- 3 & 7 \\
+ME_20250802 18:05:50: [WARNING] bake : Compile error in accessibility_testing/xourse_accessible.log: skipping further errorlog; 62 errors found
+ME_20250802 18:05:50: [ERROR  ] bake : Compilation of pdf for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+ME_20250802 18:05:50: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/xourse_accessible.pdf.failed
+ME_20250802 18:05:50: [STATUS ] bake : Command   4/4 (2) returns COMMAND_FAILED after 13.5 seconds (1 failed) for pdf of accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:50: [STATUS ] bake : Finished compiling 2 files in 26.2 seconds
+ME_20250802 18:05:50: [ERROR  ] bake : **************************
+ME_20250802 18:05:50: [ERROR  ] bake : * There were 2 errors: *
+ME_20250802 18:05:50: [ERROR  ] bake : **************************
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.105] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \HCol <- -\lTblrxmColHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \HCol -\lTblrxmColHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \lTblrxmRowDiffInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \HRow <- -\lTblrRowHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> \HRow -\lTblrRowHeadInt
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ->\int_set:Nn \lTblrxmColHeadInt {\__tblr_prop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN <- \l__tblr_testing_prop {f...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ...\lTblrxmColHeadInt {\__tblr_prop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop <- {first}\lTblr...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ...rop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck <- \prop_get_to_...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ...mcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN <- \l__tblr_colg...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ...blrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN \l__tblr_colgrouptest_prop <- {firsttest}\m...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:setcellinfo ... -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN \l__tblr_colgrouptest_prop {firsttest}\myInteger
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Missing number, treated as zero. at <to be read again> <- <
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Missing number, treated as zero. at <to be read again> <- <
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck <- \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck <- colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan <- " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan <- " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow <- -\HCol " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol <- " style="\CellStyle " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle <- " \CellAttributes >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes <- >
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Missing number, treated as zero. at <to be read again> <- <
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+ME_20250802 18:05:50: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.108] Missing number, treated as zero. at <to be read again> <- <
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.3] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.5] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.7] LaTeX Error: Can be used only in preamble. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.14] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.21] Misplaced alignment tab character &. at l.21  & <- Grammy Wins & Grammy Nominations \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.21] Misplaced alignment tab character &. at l.21  & Grammy Wins & <- Grammy Nominations \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.23] Misplaced alignment tab character &. at l.23 Fearless & <- 4 & 8 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.23] Misplaced alignment tab character &. at l.23 Fearless & 4 & <- 8 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.24] Misplaced alignment tab character &. at l.24 1989 & <- 3 & 7 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.24] Misplaced alignment tab character &. at l.24 1989 & 3 & <- 7 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.26] LaTeX Error: \begin{center} on input line 13 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.31] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.37] Misplaced alignment tab character &. at l.37  Album & <- Release Date & Lead Single \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.37] Misplaced alignment tab character &. at l.37  Album & Release Date & <- Lead Single \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.39] Misplaced alignment tab character &. at l.39 Midnights & <- October 21, 2022   & Anti--Hero \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.39] Misplaced alignment tab character &. at l.39 Midnights & October 21, 2022   & <- Anti--Hero \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.40] Misplaced alignment tab character &. at l.40 The Tortured Poets Department & <- April 19, 2024 & Fortnight \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.40] Misplaced alignment tab character &. at l.40 The Tortured Poets Department & April 19, 2024 & <- Fortnight \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.42] LaTeX Error: \begin{center} on input line 30 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.48] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.54] Misplaced alignment tab character &. at l.54  Album & <- 1989 & Folklore \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.54] Misplaced alignment tab character &. at l.54  Album & 1989 & <- Folklore \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.56] Misplaced alignment tab character &. at l.56 Release Date & <- October 27, 2014   & Anti--Hero \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.56] Misplaced alignment tab character &. at l.56 Release Date & October 27, 2014   & <- Anti--Hero \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.57] Misplaced alignment tab character &. at l.57 Lead Single & <- July 24, 2020 & Cardigan \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.57] Misplaced alignment tab character &. at l.57 Lead Single & July 24, 2020 & <- Cardigan \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.59] LaTeX Error: \begin{center} on input line 47 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.65] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.66] Misplaced alignment tab character &. at l.66      1 & <- 1 & 1 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.66] Misplaced alignment tab character &. at l.66      1 & 1 & <- 1 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.67] Misplaced alignment tab character &. at l.67      0 & <- 1 & 1 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.67] Misplaced alignment tab character &. at l.67      0 & 1 & <- 1 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.68] Misplaced alignment tab character &. at l.68      0 & <- 0 & 1
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.68] Misplaced alignment tab character &. at l.68      0 & 0 & <- 1
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.69] LaTeX Error: \begin{center} on input line 63 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.74] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.75] Undefined control sequence.    at l.75  \SetCell <- [r=2]{c} & 1-2 & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.75] Misplaced alignment tab character &. at l.75  \SetCell[r=2]{c} & <- 1-2 & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.75] Misplaced alignment tab character &. at l.75  \SetCell[r=2]{c} & 1-2 & <- 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.76] Misplaced alignment tab character &. at <recently read> &
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.76] Misplaced alignment tab character &. at l.76      & 2-2 & <- 2-3     \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.77] Misplaced alignment tab character &. at l.77  3-1 & <- 3-2 & 3-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.77] Misplaced alignment tab character &. at l.77  3-1 & 3-2 & <- 3-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.78] LaTeX Error: \begin{document} on input line 9 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.81] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.82] Undefined control sequence.    at l.82  \SetCell <- [c=2]{c} &  & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.82] Misplaced alignment tab character &. at l.82  \SetCell[c=2]{c} & <- & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.82] Misplaced alignment tab character &. at l.82  \SetCell[c=2]{c} &  & <- 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.83] Misplaced alignment tab character &. at l.83  2-1    & <- 2-2 & 2-3     \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.83] Misplaced alignment tab character &. at l.83  2-1    & 2-2 & <- 2-3     \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.84] Misplaced alignment tab character &. at l.84  3-1 & <- 3-2 & 3-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.84] Misplaced alignment tab character &. at l.84  3-1 & 3-2 & <- 3-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.85] LaTeX Error: \begin{document} on input line 9 ended by \end{tblr}. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.89] LaTeX Error: Environment tblr undefined. 
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.90] Undefined control sequence.    at l.90  \SetCell <- [r=2]{c} & 1-2 & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.90] Misplaced alignment tab character &. at l.90  \SetCell[r=2]{c} & <- 1-2 & 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.90] Misplaced alignment tab character &. at l.90  \SetCell[r=2]{c} & 1-2 & <- 1-3 \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.91] Misplaced alignment tab character &. at <recently read> &
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.91] Misplaced alignment tab character &. at l.91      & 2-2 & <- 2-3     \\
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.92] Misplaced alignment tab character &. at l.92  3-1 & <- 3-2 & 3-3
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.92] Misplaced alignment tab character &. at l.92  3-1 & 3-2 & <- 3-3
+ME_20250802 18:05:50: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.93] LaTeX Error: \begin{document} on input line 9 ended by \end{tblr}. 
+ME_20250802 18:05:50: [WARNING] bake : Baked 2 files, but 2 compilations failed
+ME_20250802 18:05:50: [ERROR  ] main : Bake failed: Baking resulted in 2 errors:
+pdf|accessibility_testing/xourse_accessible.tex
+html|accessibility_testing/xourse_accessible.tex
+ME_20250802 18:05:50: [WARNING] main : But, I'll continue, and hope for the best
+ME_20250802 18:05:50: [INFO   ] main : Mmm, file accessibility_testing/Tables_Testing.tex still needs compilation.
+ME_20250802 18:05:50: [INFO   ] main : Mmm, file accessibility_testing/xourse_accessible.tex still needs compilation.
+ME_20250802 18:05:50: [INFO   ] main : Still 2 files to be compiled after bake.
+ME_20250802 18:05:50: [STATUS ] main : Start frost
+ME_20250802 18:05:50: [WARNING] frost: There are 9 uncommitted files; should serve only to localhost
+ME_20250802 18:05:50: [WARNING] frost: There are 2 file to be compiled; should serve only to localhost
+ME_20250802 18:05:51: [INFO   ] frost: Adding XOURSE aListOfExercisesXourse.tex (A List Of Exercises (works only on OSU server))
+ME_20250802 18:05:51: [INFO   ] frost: Adding XOURSE accessibility_testing/xourse_accessible.tex (Testing Accessibility)
+ME_20250802 18:05:51: [INFO   ] frost: Adding XOURSE aFirstXourseVariant.tex (A First Ximera Xourse (Variant Layout, only on new ximeraServer))
+ME_20250802 18:05:51: [WARNING] frost: Label def_absolute_value already used in aFirstFolder/aFirstActivity.html; ignoring for aFirstFolder/aFirstActivityVariant.html
+ME_20250802 18:05:51: [WARNING] frost: Label xim_aFirstActivity already used in aFirstFolder/aFirstActivity.html; ignoring for aFirstFolder/aFirstActivityVariant.html
+ME_20250802 18:05:51: [INFO   ] frost: Adding XOURSE aFirstXourse.tex (A First Ximera Xourse)
+ME_20250802 18:05:51: [WARNING] frost: Command git rev-parse --verify --quiet PUB_f6f0d449a5a985da15a8f927296686a3071d7445 returns 1: 
+ME_20250802 18:05:51: [INFO   ] frost: Found publications/7b22b9954b0499aef782dbae2ff2c77ecca31f97  (tree:acdd0edeb27dc81bd8453d40c8c29254cdd05f23 tag:7b22b9954b0499aef782dbae2ff2c77ecca31f97) 
+ME_20250802 18:05:51: [STATUS ] frost: Creating tag publications/3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec for 3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec
+ME_20250802 18:05:51: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+ME_20250802 18:05:51: [STATUS ] main : Frost succeeded: Created publications/3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec
+ME_20250802 18:05:51: [STATUS ] main : Start serve
+ME_20250802 18:05:51: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+ME_20250802 18:05:51: [STATUS ] frost: Forced serving (git push -f ximera publications/3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec)
+ME_20250802 18:05:54: [STATUS ] frost: Forced serving (git push -f ximera 3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec:refs/heads/master)
+ME_20250802 18:05:54: [STATUS ] main : Serve succeeded: Published  publications/3e2fc4ec6d48afd359636e32cb460e9f6bcf77ecto  http://localhost:2000/ximerafirststeps-2025
+GL_20250808 17:02:17: [INFO   ] main : Running with 'force' (compile/serve)
+GL_20250808 17:02:17: [INFO   ] main : Adding default dependency xmPreamble.tex
+GL_20250808 17:02:17: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+GL_20250808 17:02:17: [INFO   ] main : Processing argument 1: accessibility_testing/Tables_Testing.html
+GL_20250808 17:02:17: [WARNING] main : Argument accessibility_testing/Tables_Testing.html not folder nor tex-file (html): SKIPPING
+GL_20250808 17:02:17: [STATUS ] main : No files need compiling
+GL_20250808 17:02:17: [STATUS ] main : Nothing to be baked
+GL_20250808 17:02:17: [STATUS ] main : Start frost
+GL_20250808 17:02:17: [WARNING] frost: There are 11 uncommitted files; should serve only to localhost
+GL_20250808 17:02:17: [INFO   ] frost: Found publications/3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec  (tree:54eb9f8ca53b75087c311faca1d1745bd36ec666 tag:3e2fc4ec6d48afd359636e32cb460e9f6bcf77ec) 
+GL_20250808 17:02:17: [STATUS ] frost: Creating tag publications/ebdcb2b1b50977ccf24a9c923cee04767cf77535 for ebdcb2b1b50977ccf24a9c923cee04767cf77535
+GL_20250808 17:02:17: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+GL_20250808 17:02:17: [STATUS ] main : Frost succeeded: Created publications/ebdcb2b1b50977ccf24a9c923cee04767cf77535
+GL_20250808 17:02:17: [STATUS ] main : Start serve
+GL_20250808 17:02:17: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+GL_20250808 17:02:17: [STATUS ] frost: Forced serving (git push -f ximera publications/ebdcb2b1b50977ccf24a9c923cee04767cf77535)
+GL_20250808 17:02:20: [STATUS ] frost: Forced serving (git push -f ximera ebdcb2b1b50977ccf24a9c923cee04767cf77535:refs/heads/master)
+GL_20250808 17:02:20: [STATUS ] main : Serve succeeded: Published  publications/ebdcb2b1b50977ccf24a9c923cee04767cf77535to  http://localhost:2000/ximerafirststeps-2025

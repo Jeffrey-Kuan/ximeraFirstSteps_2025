@@ -39,13 +39,21 @@
 
 \int_new:N \myInteger
 
+\int_new:N \lTblrTestingInt
+
+\int_new:N \l_my_test_int
 
 
+\tl_new:N \ColSpanEx_tl
+
+\int_new:N \ColSpanEx
 
 \str_new:N \myString
 
 \tl_new:N \l_my_tl
 
+
+\prop_new:N \g__tblr_testing_prop
 
 \prop_new:N \l__tblr_testing_prop
 
@@ -59,7 +67,7 @@
     \add_integer_entry:nn { #1 } { #2 }
   }
 
-\AddIntegerEntry{first}{42}
+%\AddIntegerEntry{first_entry}{44}
 
 \cs_new:Npn \string_to_int_var:nN #1 #2
   {
@@ -95,22 +103,33 @@
     \add_integer_entry_v:nn { #1 } { #2 }
   }
 
+\tl_new:N  \l__tblr_z_tl 
 
-\AddIntegerEntryV{firsttest}{ \l__tblr_j_tl -\int_eval:n {\l__tblr_j_tl + \l__tblr_a_tl - 1} }
+%\prop_put:Nnn \l__tblr_testing_prop {first_entry} { 47 }
 
-    \int_step_variable:nNn { \c@colcount } \l__tblr_j_tl
-      {
-        \int_step_variable:nNn { \c@rowcount } \l__tblr_i_tl
-          {
-            \tl_set:Ne \l__tblr_a_tl
-              {
-                \__tblr_data_item:neen { cell }
-                  { \l__tblr_i_tl } { \l__tblr_j_tl } { colspan }
-              }
+%\AddIntegerEntryV{firsttest}{ 42 }
+   %\AddIntegerEntry{first_entry}{43}
 
-              %\AddIntegerEntryV{firsttest}{1}
 
-              
 
-          }
-      }
+
+
+%% #1: data name; #2: data index 1; #3: data index 2; #4: key
+\cs_new:Npn \__tblr_data_test_item:nnnn #1 #2 #3 #4
+  {
+      \intarray_item:cn { g__tblr_#1_ \int_use:N \gTblrLevelInt _intarray }
+        { \__tblr_data_key_to_int:nnnn {#1} {#2} {#3} {#4} }
+      
+  }
+
+\str_new:N \l_test_string
+
+%%% copied from tabularray.sty
+
+%\tl_new:N  \l__tblr_i_tl  % for row index
+%\tl_new:N  \l__tblr_j_tl  % for column index
+
+%\int_zero_new:N \c@colcount
+%\ProvideExpandableDocumentCommand \thecolcount {} { \@arabic \c@colcount }
+
+%\prop_new:N \l__tblr_col_item_skip_size_prop

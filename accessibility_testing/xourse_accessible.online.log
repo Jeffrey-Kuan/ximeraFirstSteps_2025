@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  17 JUL 2025 22:35
+This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  2 AUG 2025 18:05
  system commands enabled.
  file:line:error style messages enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\makeatother\HCode ximera.cfg,svg,htex4ht,mathjax,-css,charset=utf-8,html5.a.b.c.\input "\detokenize{xourse_accessible.tex}"
@@ -1501,9 +1501,9 @@ version 2018-12-30-09:33
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2025-06-11-13:51
 ))
-l.87 --- TeX4ht warning --- \Configure{tabularray}? ---
+l.102 --- TeX4ht warning --- \Configure{tabularray}? ---
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:90: LaTeX Error: Missing \begin{document} in `ximera.cfg'.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:105: LaTeX Error: Missing \begin{document} in `ximera.cfg'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1512,319 +1512,407 @@ Type  H <return>  for immediate help.
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help\@err@                                                                   
                                                                                                                                                                                                                                               
-l.90   \HCode{<table class="tabularray \@currenvir" id="tbl-\TableNo">}
-                                                                       
+l.105   \HCode{<table class="tabularray \@currenvir" id="tbl-\TableNo">}
+                                                                        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:92: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:107: Undefined control sequence.
 <argument> \lTblrRowHeadInt 
                             
-l.92 {\:setrowhead
-                  \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
+l.107 {\:setrowhead
+                   \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:92: You can't use `\numexpr' in horizontal mode.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:107: You can't use `\numexpr' in horizontal mode.
 \int_set:Nn #1#2->#1=\__int_eval:w 
                                    #2\__int_eval_end: 
-l.92 {\:setrowhead
-                  \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
+l.107 {\:setrowhead
+                   \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:92: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:107: Undefined control sequence.
 <argument> \__tblr_prop_item:ne 
                                 {inner}{rowhead}+0
-l.92 {\:setrowhead
-                  \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
+l.107 {\:setrowhead
+                   \HCode{<tr id="row-\TableNo-\HRow-">}}{\HCode{</tr>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:92: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:107: Undefined control sequence.
 <argument> <tr id="row-\TableNo -\HRow 
                                        -">
-l.92 {\:setrowhead\HCode{<tr id="row-\TableNo-\HRow-">}
-                                                       }{\HCode{</tr>}}
+l.107 {\:setrowhead\HCode{<tr id="row-\TableNo-\HRow-">}
+                                                        }{\HCode{</tr>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \lTblrxmColHeadInt 
                               
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: You can't use `\numexpr' in horizontal mode.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: You can't use `\numexpr' in horizontal mode.
 \int_set:Nn #1#2->#1=\__int_eval:w 
                                    #2\__int_eval_end: 
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \__tblr_prop_item:ne 
                                 {inner}{xmcolhead}+0
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \lTblrxmColDiffInt 
                               
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: You can't use `\numexpr' in horizontal mode.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: You can't use `\numexpr' in horizontal mode.
 \int_set:Nn #1#2->#1=\__int_eval:w 
                                    #2\__int_eval_end: 
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \HCol 
                  -\lTblrxmColHeadInt 
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \HCol -\lTblrxmColHeadInt 
                                      
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \lTblrxmRowDiffInt 
                               
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: You can't use `\numexpr' in horizontal mode.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: You can't use `\numexpr' in horizontal mode.
 \int_set:Nn #1#2->#1=\__int_eval:w 
                                    #2\__int_eval_end: 
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \HRow 
                  -\lTblrRowHeadInt 
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 <argument> \HRow -\lTblrRowHeadInt 
                                    
-l.93 {\:setcellinfo
-                   \HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ->\int_set:Nn \lTblrxmColHeadInt {\__tblr_prop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN 
+                                                                                                                                                                                                                                   \l__tblr_testing_prop {f...
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ...\lTblrxmColHeadInt {\__tblr_prop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop 
+                                                                                                                                                                                                                                              {first}\lTblr...
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ...rop_item:ne {inner}{xmcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck 
+                                                                                                                                                                                                                                              \prop_get_to_...
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ...mcolhead}+0}\int_set:Nn \lTblrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN 
+                                                                                                                                                                                                                                              \l__tblr_colg...
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ...blrxmColDiffInt {\HCol -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN \l__tblr_colgrouptest_prop 
+                                                                                                                                                                                                                                              {firsttest}\m...
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+\:setcellinfo ... -\lTblrxmColHeadInt }\int_set:Nn \lTblrxmRowDiffInt {\HRow -\lTblrRowHeadInt }\prop_get_to_int:NnN \l__tblr_testing_prop {first}\lTblrxmColGroupCheck \prop_get_to_int:NnN \l__tblr_colgrouptest_prop {firsttest}\myInteger 
+                                                                                                                                                                                                                                              
+l.108 {\:setcellinfo
+                    \HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 \:testcell ->\ifnum \lTblrxmColDiffInt 
-                                       <1\ifnum \lTblrxmRowDiffInt <1td\else th\space scope="row"\fi \else \ifnum \lTblrxmRowDiffInt <1th\space scope="col"\else td\fi \fi 
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+                                       <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Missing number, treated as zero.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Missing number, treated as zero.
 <to be read again> 
                    <
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt 
-                                                                   <1td\else th\space scope="row"\fi \else \ifnum \lTblrxmRowDiffInt <1th\space scope="col"\else td\fi \fi 
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+                                                                   <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Missing number, treated as zero.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Missing number, treated as zero.
 <to be read again> 
                    <
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan 
-                                                   " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck 
+                                              \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan " rowspan="\HRowspan 
-                                                                        " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck 
+                                                          colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow 
-                                                                                                  -\HCol " style="\CellStyle " \CellAttributes >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan 
+                                                                               " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol 
-                                                                                                         " style="\CellStyle " \CellAttributes >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan 
+                                                                                                    " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle 
-                                                                                                                             " \CellAttributes >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow 
+                                                                                                                              -\HCol " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
-<argument> <\:testcell \space colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes 
-                                                                                                                                               >
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
-                                                                                                                                                          }{\HCode{</\:testcell>}}
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol 
+                                                                                                                                     " style="\CellStyle " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle 
+                                                                                                                                                         " \CellAttributes >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
+<argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes 
+                                                                                                                                                                           >
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}
+                                                                                                                                                                                     }{\HCode{</\:testcell>}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 \:testcell ->\ifnum \lTblrxmColDiffInt 
-                                       <1\ifnum \lTblrxmRowDiffInt <1td\else th\space scope="row"\fi \else \ifnum \lTblrxmRowDiffInt <1th\space scope="col"\else td\fi \fi 
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
-                                                                                                                                                                                 }
+                                       <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
+                                                                                                                                                                                                            }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Missing number, treated as zero.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Missing number, treated as zero.
 <to be read again> 
                    <
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
-                                                                                                                                                                                 }
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
+                                                                                                                                                                                                            }
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Undefined control sequence.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Undefined control sequence.
 \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt 
-                                                                   <1td\else th\space scope="row"\fi \else \ifnum \lTblrxmRowDiffInt <1th\space scope="col"\else td\fi \fi 
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
-                                                                                                                                                                                 }
+                                                                   <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
+                                                                                                                                                                                                            }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/root/texmf/tex/latex/ximeraLatex/ximera.cfg:93: Missing number, treated as zero.
+/root/texmf/tex/latex/ximeraLatex/ximera.cfg:108: Missing number, treated as zero.
 <to be read again> 
                    <
-l.93 {\:setcellinfo\HCode{<\:testcell\space  colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
-                                                                                                                                                                                 }
+l.108 {\:setcellinfo\HCode{<\:testcell\space\:colgroupcheck \:testcheck colspan="\HMultispan" rowspan="\HRowspan"  id="cell\TableNo-\HRow-\HCol" style="\CellStyle" \CellAttributes>}}{\HCode{</\:testcell>}
+                                                                                                                                                                                                            }
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-l.96 --- TeX4ht warning --- \Configure{tabularrayattributes}? ---
+l.111 --- TeX4ht warning --- \Configure{tabularrayattributes}? ---
 (./xourse_accessible.online.oc) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2025-04-14 L3 backend support: dvips
 \l__pdfannot_backend_content_box=\box75
@@ -1835,43 +1923,43 @@ File: l3backend-dvips.def 2025-04-14 L3 backend support: dvips
 ) (./xourse_accessible.online.aux)
 \openout1 = xourse_accessible.online.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 214.
+ on input line 229.
 
 \c@lstlisting=\count405
-Package hyperref Info: Link coloring ON on input line 214.
+Package hyperref Info: Link coloring ON on input line 229.
 \ST@sf=\write10
 
 \openout10 = xourse_accessible.online.sagetex.sage
-LaTeX Info: Redefining \microtypecontext on input line 214.
-Package microtype Info: Not applying patch `item' (for tex4ht) on input line 214.
-Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 214.
-Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 214.
-Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 214.
-Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 214.
-LaTeX Info: Redefining \microtypesetup on input line 214.
+LaTeX Info: Redefining \microtypecontext on input line 229.
+Package microtype Info: Not applying patch `item' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 229.
+LaTeX Info: Redefining \microtypesetup on input line 229.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1895,12 +1983,12 @@ L3 programming layer <2025-05-26>
 )
 
 Here is how much of LuaTeX's memory you used:
- 44664 strings out of 470198
+ 44671 strings out of 470198
  100000,1648299 words of node,token memory allocated
  568 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 68 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 2:170,3:259,4:5,5:52,6:24,7:460,8:3,9:93,10:4,11:42
- 70665 multiletter control sequences out of 65536+600000
+   avail lists: 2:174,3:259,4:5,5:52,6:24,7:511,8:3,9:93,10:4,11:45
+ 70672 multiletter control sequences out of 65536+600000
  18 fonts using 938559 bytes
  139i,5n,159p,1239b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on xourse_accessible.online.dvi (1 page, 4064 bytes).
+Output written on xourse_accessible.online.dvi (1 page, 4076 bytes).
