@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  2 AUG 2025 18:05
+This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  8 AUG 2025 17:04
  system commands enabled.
  file:line:error style messages enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\makeatother\HCode ximera.cfg,svg,htex4ht,mathjax,-css,charset=utf-8,html5.a.b.c.\input "\detokenize{Tables_Testing.tex}"
@@ -909,6 +909,9 @@ Package: TailorSwiftBotPublic 2025-07-10 v2025 Make your math WCAG2.1AA complian
 \lTblrxmCellRowSpanInt=\count436
 \lTblrxmColGroupCheck=\count437
 \myInteger=\count438
+\lTblrTestingInt=\count439
+\l_my_test_int=\count440
+\ColSpanEx=\count441
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
 version 2020-10-17-13:53
 ) (/root/texmf/tex/latex/ximeraLatex/ximera.cfg (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
@@ -925,7 +928,7 @@ version 2025-02-27-12:30
 
 l.875 --- TeX4ht warning --- nonprimitive \everypar ---
 --- needs --- tex4ht Tables_Testing.online ---
-\tmp:cnt=\count439
+\tmp:cnt=\count442
 
 \openout15 = Tables_Testing.online.tmp
 (./Tables_Testing.online.tmp)
@@ -1067,7 +1070,7 @@ version 2018-08-30-15:28
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
  (/usr/local/texlive/2025/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count440
+\@catcodetablestackcnt=\count443
 )
 \CatcodeTableOther=\catcodetable15
 \CatcodeTableExpl=\catcodetable16
@@ -1235,7 +1238,7 @@ version 2025-06-11-13:51
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 \MT@toks=\toks67
 \MT@tempbox=\box104
-\MT@count=\count441
+\MT@count=\count444
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks68
@@ -1244,7 +1247,7 @@ LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen352
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count442
+\MT@listname@count=\count445
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2025/02/11 v3.2a Definitions specific to luatex (RS)
 Lua module: microtype 2025/02/11 v3.2a microtype module.
@@ -1259,10 +1262,10 @@ File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
-\c@identification=\count443
-\c@imagealt=\count444
-\c@choiceId=\count445
-\c@footnoteNum=\count446
+\c@identification=\count446
+\c@imagealt=\count447
+\c@choiceId=\count448
+\c@footnoteNum=\count449
  (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2025-06-12-13:53
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/unicode.4ht
@@ -1649,43 +1652,43 @@ version 2025-06-11-13:51
 (./Tables_Testing.online.oc) (./Tables_Testing.online.aux)
 \openout1 = Tables_Testing.online.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 229.
-LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 229.
+ on input line 228.
 
-\c@lstlisting=\count447
-Package hyperref Info: Link coloring ON on input line 229.
+\c@lstlisting=\count450
+Package hyperref Info: Link coloring ON on input line 228.
 \ST@sf=\write10
 
 \openout10 = Tables_Testing.online.sagetex.sage
-LaTeX Info: Redefining \microtypecontext on input line 229.
-Package microtype Info: Not applying patch `item' (for tex4ht) on input line 229.
-Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 229.
-Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 229.
-Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 229.
-Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 229.
-LaTeX Info: Redefining \microtypesetup on input line 229.
+LaTeX Info: Redefining \microtypecontext on input line 228.
+Package microtype Info: Not applying patch `item' (for tex4ht) on input line 228.
+Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 228.
+Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 228.
+Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 228.
+Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 228.
+LaTeX Info: Redefining \microtypesetup on input line 228.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1723,12 +1726,12 @@ L3 programming layer <2025-05-26>
 )
 
 Here is how much of LuaTeX's memory you used:
- 47488 strings out of 470198
+ 47499 strings out of 470198
  100000,1977958 words of node,token memory allocated
  568 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 68 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 2:1710,3:602,4:146,5:104,6:106,7:2759,8:3,9:1332,10:13,11:152
- 73418 multiletter control sequences out of 65536+600000
+   avail lists: 2:1382,3:684,4:98,5:86,6:131,7:2792,8:3,9:1346,10:13,11:108
+ 73429 multiletter control sequences out of 65536+600000
  36 fonts using 2055047 bytes
- 124i,6n,142p,1235b,820s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on Tables_Testing.online.dvi (2 pages, 17296 bytes).
+ 124i,6n,142p,1235b,833s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on Tables_Testing.online.dvi (2 pages, 17132 bytes).
