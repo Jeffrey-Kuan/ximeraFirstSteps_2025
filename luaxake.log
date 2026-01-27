@@ -34443,3 +34443,33 @@ RO_20260123 19:28:10: [INFO   ] frost: Publishing to localhost: http://localhost
 RO_20260123 19:28:10: [STATUS ] frost: Forced serving (git push -f ximera publications/975dcd62722d183d6472803972471b94f90f0fb1)
 RO_20260123 19:28:11: [STATUS ] frost: Forced serving (git push -f ximera 975dcd62722d183d6472803972471b94f90f0fb1:refs/heads/master)
 RO_20260123 19:28:11: [STATUS ] main : Serve succeeded: Published  publications/975dcd62722d183d6472803972471b94f90f0fb1to  http://localhost:2000/ximerafirststeps-2025
+TB_20260127 18:00:53: [INFO   ] main : Running with 'force' (compile/serve)
+TB_20260127 18:00:53: [INFO   ] main : Adding default dependency xmPreamble.tex
+TB_20260127 18:00:53: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+TB_20260127 18:00:53: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:00:53: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:00:53: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:00:53: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:00:53: [STATUS ] main : Start bake
+TB_20260127 18:00:53: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:00:53: [STATUS ] bake : There are 1 commands to run for 1 files
+TB_20260127 18:00:53: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+TB_20260127 18:01:01: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+TB_20260127 18:01:01: [STATUS ] bake : Command   1/1 (1) returns OK after 8.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+TB_20260127 18:01:02: [STATUS ] bake : Finished compiling 1 files in 9.0 seconds
+TB_20260127 18:01:02: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+TB_20260127 18:01:02: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+TB_20260127 18:01:02: [INFO   ] main : Still 1 files to be compiled after bake.
+TB_20260127 18:01:02: [STATUS ] main : Start frost
+TB_20260127 18:01:02: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+TB_20260127 18:01:02: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+TB_20260127 18:01:02: [WARNING] frost: Command git rev-parse --verify --quiet PUB_e3b2690794ac05db1075713b21a96f60e3cf2a38 returns 1: 
+TB_20260127 18:01:02: [INFO   ] frost: Found publications/975dcd62722d183d6472803972471b94f90f0fb1  (tree:74eaa0a50e45840b135d10a4f71cc717269aeefa tag:975dcd62722d183d6472803972471b94f90f0fb1) 
+TB_20260127 18:01:02: [STATUS ] frost: Creating tag publications/5be031671a92ceed9eb605ea20f9f5f118da1d19 for 5be031671a92ceed9eb605ea20f9f5f118da1d19
+TB_20260127 18:01:02: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+TB_20260127 18:01:02: [STATUS ] main : Frost succeeded: Created publications/5be031671a92ceed9eb605ea20f9f5f118da1d19
+TB_20260127 18:01:02: [STATUS ] main : Start serve
+TB_20260127 18:01:02: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+TB_20260127 18:01:02: [STATUS ] frost: Forced serving (git push -f ximera publications/5be031671a92ceed9eb605ea20f9f5f118da1d19)
+TB_20260127 18:01:05: [STATUS ] frost: Forced serving (git push -f ximera 5be031671a92ceed9eb605ea20f9f5f118da1d19:refs/heads/master)
+TB_20260127 18:01:05: [STATUS ] main : Serve succeeded: Published  publications/5be031671a92ceed9eb605ea20f9f5f118da1d19to  http://localhost:2000/ximerafirststeps-2025
