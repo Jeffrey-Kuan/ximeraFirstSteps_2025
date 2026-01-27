@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  19 NOV 2025 19:52
+This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  27 JAN 2026 18:00
  system commands enabled.
  file:line:error style messages enabled.
-**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\makeatother\HCode ximera.cfg,svg,htex4ht,mathjax,-css,charset=utf-8,html5.a.b.c.\input "\detokenize{Tables_Testing.tex}"
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\makeatother\HCode ximera.cfg,svg,htex4ht,mathjax,-css,charset=utf-8,html5.a.b.c.\input "\detokenize{Alt_Text_Testing.tex}"
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
@@ -34,7 +34,7 @@ Package: tex4ht
 --- Note --- for ^ at preamble, use the command line option `early^'
 --------------------------------------
 \tmp:toks=\toks17
-) (./Tables_Testing.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+) (./Alt_Text_Testing.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/usepackage.4ht
 version 2025-05-13-14:10
 ) (/root/texmf/tex/latex/ximeraLatex/ximera.cls
 Document Class: ximera 2024/05/12 v1.5.1 Simultaneously write print and online interactive materials
@@ -719,7 +719,7 @@ warning  (font): lua-loaded font '17' with name 'dummy' has no characters
 \c@warning=\count381
 \outcomefile=\write6
 
-\openout6 = Tables_Testing.online.oc
+\openout6 = Alt_Text_Testing.online.oc
 \c@Iteration@probCnt=\count382
 \c@problem=\count383
 \c@problem@Depth=\count384
@@ -745,12 +745,12 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 \c@ST@cmdline=\count390
 \sagetexindent=\skip69
 
-No file Tables_Testing.online.sagetex.sout.
+No file Alt_Text_Testing.online.sagetex.sout.
 \sagecommandlineskip=\skip70
 )
 \myfile=\write7
 
-\openout7 = Tables_Testing.online.xmjax
+\openout7 = Alt_Text_Testing.online.xmjax
 
 Loading Ximera defaultPreamble xmPreamble.tex
 (../xmPreamble.tex
@@ -761,7 +761,7 @@ Excluding comment 'CC: 0' (/usr/local/texlive/2025/texmf-dist/tex/generic/xstrin
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-Compiling OSU version of hints for Tables_Testing.online
+Compiling OSU version of hints for Alt_Text_Testing.online
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
  (/usr/local/texlive/2025/texmf-dist/tex/latex/ninecolors/ninecolors.sty
@@ -927,16 +927,16 @@ version 2025-02-09-08:05
 version 2025-02-27-12:30
 
 l.875 --- TeX4ht warning --- nonprimitive \everypar ---
---- needs --- tex4ht Tables_Testing.online ---
+--- needs --- tex4ht Alt_Text_Testing.online ---
 \tmp:cnt=\count442
 
-\openout15 = Tables_Testing.online.tmp
-(./Tables_Testing.online.tmp)
+\openout15 = Alt_Text_Testing.online.tmp
+(./Alt_Text_Testing.online.tmp)
 \tmp:dim=\skip71
- (./Tables_Testing.online.xref)
+ (./Alt_Text_Testing.online.xref)
 \:refout=\write8
 
-\openout8 = Tables_Testing.online.xref
+\openout8 = Alt_Text_Testing.online.xref
  (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2025-06-12-13:53
 --------------------------------------
@@ -1027,8 +1027,8 @@ version 2025-06-11-13:51
 --------------------------------------
 \:tocout=\write9
 
-\openout9 = Tables_Testing.online.4tc
- (Tables_Testing.online.4tc) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/latex.4ht
+\openout9 = Alt_Text_Testing.online.4tc
+ (Alt_Text_Testing.online.4tc) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/latex.4ht
 version 2025-06-11-13:51
 LaTeX Info: Redefining \_ on input line 180.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
@@ -1649,8 +1649,8 @@ version 2018-12-30-09:33
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2025-06-11-13:51
 ))
-(./Tables_Testing.online.oc) (./Tables_Testing.online.aux)
-\openout1 = Tables_Testing.online.aux
+(./Alt_Text_Testing.online.oc) (./Alt_Text_Testing.online.aux)
+\openout1 = Alt_Text_Testing.online.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
 LaTeX Font Info:    ... okay on input line 228.
@@ -1681,7 +1681,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 Package hyperref Info: Link coloring ON on input line 228.
 \ST@sf=\write10
 
-\openout10 = Tables_Testing.online.sagetex.sage
+\openout10 = Alt_Text_Testing.online.sagetex.sage
 LaTeX Info: Redefining \microtypecontext on input line 228.
 Package microtype Info: Not applying patch `item' (for tex4ht) on input line 228.
 Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 228.
@@ -1699,43 +1699,27 @@ Package microtype Info: No adjustment of kerning.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ))
-
-[1
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+l.14 --- TeX4ht warning --- File `"../xmPictures/missionPatch.xbb"' not found ---
+l.14 --- TeX4ht warning --- Cannot determine size of graphic in "../xmPictures/missionPatch.xbb" (no BoundingBox) ---
+l. 14 --- needs --- ../xmPictures/missionPatch.jpg ---
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-./Tables_Testing.tex:97: Package tabularray Error: Unknown inner key name 'colhead'.
-
-Type <return> to continue.
- ->\tex_errmessage:D  Package tabularray Error: Unknown inner key name 'colhead'.
-
-Type <return> to continue\use_none:n                                                
-                                                                                                                                                                       
-l.97 \end
-         {tblr}
-
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-
 *********************************************************************
 
 
-[2] (./Tables_Testing.online.aux)
+[1
+
+] (./Alt_Text_Testing.online.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
@@ -1743,12 +1727,12 @@ L3 programming layer <2025-05-26>
 )
 
 Here is how much of LuaTeX's memory you used:
- 47500 strings out of 470198
+ 47309 strings out of 470198
  100000,1977958 words of node,token memory allocated
  568 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 68 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 2:1710,3:609,4:146,5:104,6:106,7:2318,8:3,9:1332,10:13,11:80
- 73430 multiletter control sequences out of 65536+600000
+   avail lists: 2:156,3:274,4:17,5:46,6:15,7:439,8:3,9:81,10:15,11:24
+ 73236 multiletter control sequences out of 65536+600000
  36 fonts using 2055047 bytes
- 124i,6n,142p,1235b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on Tables_Testing.online.dvi (2 pages, 17024 bytes).
+ 124i,5n,142p,1237b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on Alt_Text_Testing.online.dvi (1 page, 4088 bytes).
