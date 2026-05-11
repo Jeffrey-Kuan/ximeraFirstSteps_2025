@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  11 MAY 2026 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  11 MAY 2026 19:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -855,8 +855,7 @@ Package: TailorSwiftBotPublic 2025-07-10 v2025 Make your math WCAG2.1AA complian
 \lTblrTestingInt=\count439
 \l_my_test_int=\count440
 \ColSpanEx=\count441
-)
-No file Alt_Text_Testing.aux.
+) (./Alt_Text_Testing.aux)
 \openout1 = `Alt_Text_Testing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -877,7 +876,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count442
 \scratchdimen=\dimen353
@@ -897,6 +896,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 \c@lstlisting=\count448
 Package hyperref Info: Link coloring ON on input line 11.
+(./Alt_Text_Testing.out) (./Alt_Text_Testing.out)
 \@outlinefile=\write9
 \openout9 = `Alt_Text_Testing.out'.
 
@@ -908,25 +908,7 @@ File: ../xmPictures/missionPatch.jpg Graphic file (type jpg)
 <use ../xmPictures/missionPatch.jpg>
 Package pdftex.def Info: ../xmPictures/missionPatch.jpg  used on input line 16.
 (pdftex.def)             Requested size: 777.62329pt x 779.7914pt.
-./Alt_Text_Testing.tex:16: Undefined control sequence.
-\BODY ->\includegraphics {missionPatch.jpg} \xmalt 
-                                                   { A graph of a function labeled $F(x)$ and another function labeled $F'(x)$}
-l.16 \end{image}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 *********************************************************************
 
 
@@ -937,29 +919,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
-
-
-Package rerunfilecheck Warning: File `Alt_Text_Testing.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Alt_Text_Testing.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Alt_Text_Testing.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37604 strings out of 469010
- 861418 string characters out of 5456196
- 1345689 words of memory out of 5000000
- 65377 multiletter control sequences out of 15000+600000
- 629211 words of font info for 51 fonts, out of 8000000 for 9000
+ 37578 strings out of 469010
+ 861038 string characters out of 5456196
+ 1344758 words of memory out of 5000000
+ 65358 multiletter control sequences out of 15000+600000
+ 627512 words of font info for 43 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  121i,6n,124p,752b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Alt_Text_Testing.pdf (1 page, 367565 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Alt_Text_Testing.pdf (1 page, 348484 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
