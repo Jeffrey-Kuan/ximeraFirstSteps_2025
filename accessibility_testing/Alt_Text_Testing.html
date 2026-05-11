@@ -45,7 +45,8 @@
 \newcommand {\question }[0]{ }
 \newcommand {\exploration }[0]{ }
 \newcommand {\hint }[0]{ }
-\newcommand {\ConfigureTheoremEnv }[1]{\renewenvironment {#1}[1][]{\refstepcounter {problem}\ifthenelse {\equal {###1}{}}{}{\HCode {&lt;span class="theorem-like-title"&gt;}###1\HCode {&lt;/span&gt;}}}{} \ConfigureEnv {#1}{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="theorem-like problem-environment #1" id="problem\arabic {identification}" titletext=" \GetTranslation {#1}"&gt;}}{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;/div&gt;}\IgnoreIndent }{}{}}
+\newcommand {\thmheadlevel }[0]{\ifnum \value {subsubsection}&gt;0 6\else \ifnum \value {subsection}&gt;0 5\else 4\fi \fi }
+\newcommand {\ConfigureTheoremEnv }[1]{\renewenvironment {#1}[1][]{\refstepcounter {problem}\ifthenelse {\equal {###1}{}}{}{\HCode {&lt;span class="theorem-like-title"&gt;}###1\HCode {&lt;/span&gt;}}}{} \ConfigureEnv {#1} {\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="theorem-like" id="problem\arabic {identification}"&gt;&lt;section&gt;\Hnewline &lt;h\thmheadlevel &gt;}\GetTranslation {#1}\HCode {&lt;/h\thmheadlevel &gt;}} {\ifvmode \IgnorePar \fi \EndP \HCode {&lt;/section&gt;&lt;/div&gt;}\IgnoreIndent } {}{}}
 \newcommand {\dialogue }[0]{\begin {description}}
 \newcommand {\foldable }[0]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div id="foldable\arabic {identification}" class="foldable"&gt;}}
 \newcommand {\expandable }[0]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div data-original="expandable" id="foldable\arabic {identification}" class="foldable"&gt;}}
@@ -68,7 +69,9 @@
 \newcommand {\ref }[1]{\HCode {&lt;a class="reference" href="\##1"&gt;#1&lt;/a&gt;}}</script></div>
 <style> .activity-body pre { white-space: pre; background-color: lightgray; } .xmyoutube { aspect-ratio: 16/9; min-width: 75%; } .image-environment img { width: unset; } </style> 
 
-<div aria-labelledby='image-alt-1' class='image-environment' role='img'><img alt='PIC' src='../xmPictures/missionPatch.jpg' /> <details><summary> Show Alt Text</summary>  A graph of a function labeled <span class='mathjax-inline'>\(F(x)\)</span> and another function labeled <span class='mathjax-inline'>\(F'(x)\)</span> </details>  </div>
+<div aria-labelledby='image-alt-1' class='image-environment' role='img'><img alt='PIC' src='../xmPictures/missionPatch.jpg' /> </div>
+<div class='theorem-like' id='problem1'><section> 
+<h4>theorem</h4><a id='x1-2r1'></a>I like Taylor Swift </section></div>
 </body> 
  
 </html>

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  19 NOV 2025 19:52
+This is LuaTeX, Version 1.22.0 (TeX Live 2025)  (format=dvilualatex 2025.6.15)  11 MAY 2026 19:35
  system commands enabled.
  file:line:error style messages enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\makeatother\HCode ximera.cfg,svg,htex4ht,mathjax,-css,charset=utf-8,html5.a.b.c.\input "\detokenize{Tables_Testing.tex}"
@@ -1025,6 +1025,8 @@ version 2025-06-11-13:51
 --------------------------------------
 --- Note --- for linear crosslinks of pages, use the command line option `next'
 --------------------------------------
+
+\openout15 = Tables_Testing.online.4ct
 \:tocout=\write9
 
 \openout9 = Tables_Testing.online.4tc
@@ -1652,43 +1654,43 @@ version 2025-06-11-13:51
 (./Tables_Testing.online.oc) (./Tables_Testing.online.aux)
 \openout1 = Tables_Testing.online.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 229.
+LaTeX Font Info:    ... okay on input line 229.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 228.
+ on input line 229.
 
 \c@lstlisting=\count450
-Package hyperref Info: Link coloring ON on input line 228.
+Package hyperref Info: Link coloring ON on input line 229.
 \ST@sf=\write10
 
 \openout10 = Tables_Testing.online.sagetex.sage
-LaTeX Info: Redefining \microtypecontext on input line 228.
-Package microtype Info: Not applying patch `item' (for tex4ht) on input line 228.
-Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 228.
-Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 228.
-Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 228.
-Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 228.
-LaTeX Info: Redefining \microtypesetup on input line 228.
+LaTeX Info: Redefining \microtypecontext on input line 229.
+Package microtype Info: Not applying patch `item' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `footnote' (for tex4ht) on input line 229.
+Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input line 229.
+LaTeX Info: Redefining \microtypesetup on input line 229.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1715,23 +1717,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-./Tables_Testing.tex:97: Package tabularray Error: Unknown inner key name 'colhead'.
-
-Type <return> to continue.
- ->\tex_errmessage:D  Package tabularray Error: Unknown inner key name 'colhead'.
-
-Type <return> to continue\use_none:n                                                
-                                                                                                                                                                       
-l.97 \end
-         {tblr}
-
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-
 *********************************************************************
 
 
@@ -1743,12 +1728,12 @@ L3 programming layer <2025-05-26>
 )
 
 Here is how much of LuaTeX's memory you used:
- 47500 strings out of 470198
+ 47506 strings out of 470198
  100000,1977958 words of node,token memory allocated
  568 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 68 glue_spec, 7 attribute_list, 1 write nodes
    avail lists: 2:1710,3:609,4:146,5:104,6:106,7:2318,8:3,9:1332,10:13,11:80
- 73430 multiletter control sequences out of 65536+600000
+ 73434 multiletter control sequences out of 65536+600000
  36 fonts using 2055047 bytes
  124i,6n,142p,1235b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on Tables_Testing.online.dvi (2 pages, 17024 bytes).
+Output written on Tables_Testing.online.dvi (2 pages, 17180 bytes).

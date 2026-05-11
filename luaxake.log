@@ -34473,3 +34473,607 @@ TB_20260127 18:01:02: [INFO   ] frost: Publishing to localhost: http://localhost
 TB_20260127 18:01:02: [STATUS ] frost: Forced serving (git push -f ximera publications/5be031671a92ceed9eb605ea20f9f5f118da1d19)
 TB_20260127 18:01:05: [STATUS ] frost: Forced serving (git push -f ximera 5be031671a92ceed9eb605ea20f9f5f118da1d19:refs/heads/master)
 TB_20260127 18:01:05: [STATUS ] main : Serve succeeded: Published  publications/5be031671a92ceed9eb605ea20f9f5f118da1d19to  http://localhost:2000/ximerafirststeps-2025
+FI_20260326 21:03:45: [INFO   ] main : Running with 'force' (compile/serve)
+FI_20260326 21:03:45: [INFO   ] main : Adding default dependency xmPreamble.tex
+FI_20260326 21:03:45: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+FI_20260326 21:03:45: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:45: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:45: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:45: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:45: [STATUS ] main : Start bake
+FI_20260326 21:03:45: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:45: [STATUS ] bake : There are 1 commands to run for 1 files
+FI_20260326 21:03:45: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+FI_20260326 21:03:55: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+FI_20260326 21:03:55: [STATUS ] bake : Command   1/1 (1) returns OK after 10.0 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+FI_20260326 21:03:56: [STATUS ] bake : Finished compiling 1 files in 10.5 seconds
+FI_20260326 21:03:56: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+FI_20260326 21:03:56: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+FI_20260326 21:03:56: [INFO   ] main : Still 1 files to be compiled after bake.
+FI_20260326 21:03:56: [STATUS ] main : Start frost
+FI_20260326 21:03:56: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+FI_20260326 21:03:56: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+FI_20260326 21:03:56: [WARNING] frost: Command git rev-parse --verify --quiet PUB_971d21ae88024f486f87b96404d5966cfd040ac6 returns 1: 
+FI_20260326 21:03:56: [INFO   ] frost: Found publications/5be031671a92ceed9eb605ea20f9f5f118da1d19  (tree:ecf02ad02e7debf7472408be66597577cd71d671 tag:5be031671a92ceed9eb605ea20f9f5f118da1d19) 
+FI_20260326 21:03:56: [STATUS ] frost: Creating tag publications/dfeb5253f422137e7c88908798aff4bc8a20377f for dfeb5253f422137e7c88908798aff4bc8a20377f
+FI_20260326 21:03:56: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+FI_20260326 21:03:56: [STATUS ] main : Frost succeeded: Created publications/dfeb5253f422137e7c88908798aff4bc8a20377f
+FI_20260326 21:03:56: [STATUS ] main : Start serve
+FI_20260326 21:03:56: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+FI_20260326 21:03:56: [STATUS ] frost: Forced serving (git push -f ximera publications/dfeb5253f422137e7c88908798aff4bc8a20377f)
+FI_20260326 21:04:01: [STATUS ] frost: Forced serving (git push -f ximera dfeb5253f422137e7c88908798aff4bc8a20377f:refs/heads/master)
+FI_20260326 21:04:01: [STATUS ] main : Serve succeeded: Published  publications/dfeb5253f422137e7c88908798aff4bc8a20377fto  http://localhost:2000/ximerafirststeps-2025
+ZU_20260326 21:09:17: [INFO   ] main : Running with 'force' (compile/serve)
+ZU_20260326 21:09:17: [INFO   ] main : Adding default dependency xmPreamble.tex
+ZU_20260326 21:09:17: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+ZU_20260326 21:09:17: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:17: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:17: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:17: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:17: [STATUS ] main : Start bake
+ZU_20260326 21:09:17: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:17: [STATUS ] bake : There are 1 commands to run for 1 files
+ZU_20260326 21:09:17: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+ZU_20260326 21:09:22: [ERROR  ] bake : Compile error in accessibility_testing/Alt_Text_Testing.online.log:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+ZU_20260326 21:09:22: [ERROR  ] bake : Compilation of html for accessibility_testing/Alt_Text_Testing.tex failed: returns 1 (not 0)
+ZU_20260326 21:09:22: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/Alt_Text_Testing.online.html.failed
+ZU_20260326 21:09:22: [STATUS ] bake : Command   1/1 (1) returns COMMAND_FAILED after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:22: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+ZU_20260326 21:09:22: [ERROR  ] bake : **************************
+ZU_20260326 21:09:22: [ERROR  ] bake : * There were 1 errors: *
+ZU_20260326 21:09:22: [ERROR  ] bake : **************************
+ZU_20260326 21:09:22: [ERROR  ] bake : [html      ] accessibility_testing/Alt_Text_Testing.tex:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+ZU_20260326 21:09:22: [WARNING] bake : Baked 1 files, but 1 compilation failed
+ZU_20260326 21:09:22: [ERROR  ] main : Bake failed: Baking resulted in 1 errors:
+html|accessibility_testing/Alt_Text_Testing.tex
+ZU_20260326 21:09:22: [WARNING] main : But, I'll continue, and hope for the best
+ZU_20260326 21:09:22: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+ZU_20260326 21:09:22: [INFO   ] main : Still 1 files to be compiled after bake.
+ZU_20260326 21:09:22: [STATUS ] main : Start frost
+ZU_20260326 21:09:22: [WARNING] frost: There are 7 uncommitted files; should serve only to localhost
+ZU_20260326 21:09:22: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+ZU_20260326 21:09:23: [INFO   ] frost: Found publications/dfeb5253f422137e7c88908798aff4bc8a20377f  (tree:c4875b5a965df03ad2390f0c028ff9780fac07f9 tag:dfeb5253f422137e7c88908798aff4bc8a20377f) 
+ZU_20260326 21:09:23: [STATUS ] frost: Creating tag publications/3a07f7815d6d415078b2d283f9269ac266f5a794 for 3a07f7815d6d415078b2d283f9269ac266f5a794
+ZU_20260326 21:09:23: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+ZU_20260326 21:09:23: [STATUS ] main : Frost succeeded: Created publications/3a07f7815d6d415078b2d283f9269ac266f5a794
+ZU_20260326 21:09:23: [STATUS ] main : Start serve
+ZU_20260326 21:09:23: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+ZU_20260326 21:09:23: [STATUS ] frost: Forced serving (git push -f ximera publications/3a07f7815d6d415078b2d283f9269ac266f5a794)
+ZU_20260326 21:09:23: [STATUS ] frost: Forced serving (git push -f ximera 3a07f7815d6d415078b2d283f9269ac266f5a794:refs/heads/master)
+ZU_20260326 21:09:23: [STATUS ] main : Serve succeeded: Published  publications/3a07f7815d6d415078b2d283f9269ac266f5a794to  http://localhost:2000/ximerafirststeps-2025
+MW_20260326 21:09:56: [INFO   ] main : Running with 'force' (compile/serve)
+MW_20260326 21:09:56: [INFO   ] main : Adding default dependency xmPreamble.tex
+MW_20260326 21:09:56: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+MW_20260326 21:09:56: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:09:56: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:09:56: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:09:56: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:09:56: [STATUS ] main : Start bake
+MW_20260326 21:09:56: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:09:56: [STATUS ] bake : There are 1 commands to run for 1 files
+MW_20260326 21:09:56: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+MW_20260326 21:10:01: [ERROR  ] bake : Compile error in accessibility_testing/Alt_Text_Testing.online.log:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+MW_20260326 21:10:01: [ERROR  ] bake : Compilation of html for accessibility_testing/Alt_Text_Testing.tex failed: returns 1 (not 0)
+MW_20260326 21:10:01: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/Alt_Text_Testing.online.html.failed
+MW_20260326 21:10:01: [STATUS ] bake : Command   1/1 (1) returns COMMAND_FAILED after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:10:01: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+MW_20260326 21:10:01: [ERROR  ] bake : **************************
+MW_20260326 21:10:01: [ERROR  ] bake : * There were 1 errors: *
+MW_20260326 21:10:01: [ERROR  ] bake : **************************
+MW_20260326 21:10:01: [ERROR  ] bake : [html      ] accessibility_testing/Alt_Text_Testing.tex:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+MW_20260326 21:10:01: [WARNING] bake : Baked 1 files, but 1 compilation failed
+MW_20260326 21:10:01: [ERROR  ] main : Bake failed: Baking resulted in 1 errors:
+html|accessibility_testing/Alt_Text_Testing.tex
+MW_20260326 21:10:01: [WARNING] main : But, I'll continue, and hope for the best
+MW_20260326 21:10:01: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+MW_20260326 21:10:01: [INFO   ] main : Still 1 files to be compiled after bake.
+MW_20260326 21:10:01: [STATUS ] main : Start frost
+MW_20260326 21:10:01: [WARNING] frost: There are 7 uncommitted files; should serve only to localhost
+MW_20260326 21:10:01: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+MW_20260326 21:10:01: [INFO   ] frost: Found publications/3a07f7815d6d415078b2d283f9269ac266f5a794  (tree:212483def48464629bea0169c9a7f909c34be960 tag:3a07f7815d6d415078b2d283f9269ac266f5a794) 
+MW_20260326 21:10:01: [STATUS ] frost: Creating tag publications/588dd172e5567f86354732c42fe04353ef1624f1 for 588dd172e5567f86354732c42fe04353ef1624f1
+MW_20260326 21:10:01: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+MW_20260326 21:10:01: [STATUS ] main : Frost succeeded: Created publications/588dd172e5567f86354732c42fe04353ef1624f1
+MW_20260326 21:10:01: [STATUS ] main : Start serve
+MW_20260326 21:10:01: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+MW_20260326 21:10:01: [STATUS ] frost: Forced serving (git push -f ximera publications/588dd172e5567f86354732c42fe04353ef1624f1)
+MW_20260326 21:10:02: [STATUS ] frost: Forced serving (git push -f ximera 588dd172e5567f86354732c42fe04353ef1624f1:refs/heads/master)
+MW_20260326 21:10:02: [STATUS ] main : Serve succeeded: Published  publications/588dd172e5567f86354732c42fe04353ef1624f1to  http://localhost:2000/ximerafirststeps-2025
+OX_20260326 21:10:24: [INFO   ] main : Running with 'force' (compile/serve)
+OX_20260326 21:10:24: [INFO   ] main : Adding default dependency xmPreamble.tex
+OX_20260326 21:10:24: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+OX_20260326 21:10:24: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:24: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:24: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:24: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:24: [STATUS ] main : Start bake
+OX_20260326 21:10:24: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:24: [STATUS ] bake : There are 1 commands to run for 1 files
+OX_20260326 21:10:24: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+OX_20260326 21:10:29: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+OX_20260326 21:10:29: [STATUS ] bake : Command   1/1 (1) returns OK after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+OX_20260326 21:10:29: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+OX_20260326 21:10:29: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+OX_20260326 21:10:29: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+OX_20260326 21:10:29: [INFO   ] main : Still 1 files to be compiled after bake.
+OX_20260326 21:10:29: [STATUS ] main : Start frost
+OX_20260326 21:10:29: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+OX_20260326 21:10:29: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+OX_20260326 21:10:29: [INFO   ] frost: Found publications/588dd172e5567f86354732c42fe04353ef1624f1  (tree:04fac3b550867fd31efb757811cd080e84e0c5ea tag:588dd172e5567f86354732c42fe04353ef1624f1) 
+OX_20260326 21:10:29: [STATUS ] frost: Creating tag publications/94a6c10e17b915a86b41f4c264dab8aa6250e04d for 94a6c10e17b915a86b41f4c264dab8aa6250e04d
+OX_20260326 21:10:29: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+OX_20260326 21:10:29: [STATUS ] main : Frost succeeded: Created publications/94a6c10e17b915a86b41f4c264dab8aa6250e04d
+OX_20260326 21:10:29: [STATUS ] main : Start serve
+OX_20260326 21:10:29: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+OX_20260326 21:10:29: [STATUS ] frost: Forced serving (git push -f ximera publications/94a6c10e17b915a86b41f4c264dab8aa6250e04d)
+OX_20260326 21:10:30: [STATUS ] frost: Forced serving (git push -f ximera 94a6c10e17b915a86b41f4c264dab8aa6250e04d:refs/heads/master)
+OX_20260326 21:10:30: [STATUS ] main : Serve succeeded: Published  publications/94a6c10e17b915a86b41f4c264dab8aa6250e04dto  http://localhost:2000/ximerafirststeps-2025
+PB_20260326 21:12:09: [INFO   ] main : Running with 'force' (compile/serve)
+PB_20260326 21:12:09: [INFO   ] main : Adding default dependency xmPreamble.tex
+PB_20260326 21:12:09: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+PB_20260326 21:12:09: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:09: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:09: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:09: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:09: [STATUS ] main : Start bake
+PB_20260326 21:12:09: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:09: [STATUS ] bake : There are 1 commands to run for 1 files
+PB_20260326 21:12:09: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+PB_20260326 21:12:14: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+PB_20260326 21:12:14: [STATUS ] bake : Command   1/1 (1) returns OK after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+PB_20260326 21:12:14: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+PB_20260326 21:12:14: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+PB_20260326 21:12:14: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+PB_20260326 21:12:14: [INFO   ] main : Still 1 files to be compiled after bake.
+PB_20260326 21:12:14: [STATUS ] main : Start frost
+PB_20260326 21:12:14: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+PB_20260326 21:12:14: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+PB_20260326 21:12:14: [INFO   ] frost: Found publications/94a6c10e17b915a86b41f4c264dab8aa6250e04d  (tree:0bd15b7ffa276b3ec1a8ffb8243e1d5871eb7b88 tag:94a6c10e17b915a86b41f4c264dab8aa6250e04d) 
+PB_20260326 21:12:14: [STATUS ] frost: Creating tag publications/38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf for 38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf
+PB_20260326 21:12:14: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+PB_20260326 21:12:14: [STATUS ] main : Frost succeeded: Created publications/38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf
+PB_20260326 21:12:14: [STATUS ] main : Start serve
+PB_20260326 21:12:14: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+PB_20260326 21:12:14: [STATUS ] frost: Forced serving (git push -f ximera publications/38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf)
+PB_20260326 21:12:15: [STATUS ] frost: Forced serving (git push -f ximera 38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf:refs/heads/master)
+PB_20260326 21:12:15: [STATUS ] main : Serve succeeded: Published  publications/38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbfto  http://localhost:2000/ximerafirststeps-2025
+ID_20260326 21:12:54: [INFO   ] main : Running with 'force' (compile/serve)
+ID_20260326 21:12:54: [INFO   ] main : Adding default dependency xmPreamble.tex
+ID_20260326 21:12:54: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+ID_20260326 21:12:54: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:54: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:54: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:54: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:54: [STATUS ] main : Start bake
+ID_20260326 21:12:54: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:54: [STATUS ] bake : There are 1 commands to run for 1 files
+ID_20260326 21:12:54: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+ID_20260326 21:12:58: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+ID_20260326 21:12:58: [STATUS ] bake : Command   1/1 (1) returns OK after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+ID_20260326 21:12:59: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+ID_20260326 21:12:59: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+ID_20260326 21:12:59: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+ID_20260326 21:12:59: [INFO   ] main : Still 1 files to be compiled after bake.
+ID_20260326 21:12:59: [STATUS ] main : Start frost
+ID_20260326 21:12:59: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+ID_20260326 21:12:59: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+ID_20260326 21:12:59: [INFO   ] frost: Found publications/38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf  (tree:035ee0d196673539352d591a86a9e412f2c3763c tag:38ae77f7ea1ea4e65803e0fe24bf37e3eaceafbf) 
+ID_20260326 21:12:59: [STATUS ] frost: Creating tag publications/1b9de94f43d458013fbb84aae493733f368d34d8 for 1b9de94f43d458013fbb84aae493733f368d34d8
+ID_20260326 21:12:59: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+ID_20260326 21:12:59: [STATUS ] main : Frost succeeded: Created publications/1b9de94f43d458013fbb84aae493733f368d34d8
+ID_20260326 21:12:59: [STATUS ] main : Start serve
+ID_20260326 21:12:59: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+ID_20260326 21:12:59: [STATUS ] frost: Forced serving (git push -f ximera publications/1b9de94f43d458013fbb84aae493733f368d34d8)
+ID_20260326 21:12:59: [STATUS ] frost: Forced serving (git push -f ximera 1b9de94f43d458013fbb84aae493733f368d34d8:refs/heads/master)
+ID_20260326 21:13:00: [STATUS ] main : Serve succeeded: Published  publications/1b9de94f43d458013fbb84aae493733f368d34d8to  http://localhost:2000/ximerafirststeps-2025
+KQ_20260326 21:18:34: [INFO   ] main : Running with 'force' (compile/serve)
+KQ_20260326 21:18:34: [INFO   ] main : Adding default dependency xmPreamble.tex
+KQ_20260326 21:18:34: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+KQ_20260326 21:18:34: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:34: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:34: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:34: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:34: [STATUS ] main : Start bake
+KQ_20260326 21:18:34: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:34: [STATUS ] bake : There are 1 commands to run for 1 files
+KQ_20260326 21:18:34: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+KQ_20260326 21:18:38: [ERROR  ] bake : Compile error in accessibility_testing/Alt_Text_Testing.online.log:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+KQ_20260326 21:18:38: [ERROR  ] bake : Compilation of html for accessibility_testing/Alt_Text_Testing.tex failed: returns 1 (not 0)
+KQ_20260326 21:18:38: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/Alt_Text_Testing.online.html.failed
+KQ_20260326 21:18:38: [STATUS ] bake : Command   1/1 (1) returns COMMAND_FAILED after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:39: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+KQ_20260326 21:18:39: [ERROR  ] bake : **************************
+KQ_20260326 21:18:39: [ERROR  ] bake : * There were 1 errors: *
+KQ_20260326 21:18:39: [ERROR  ] bake : **************************
+KQ_20260326 21:18:39: [ERROR  ] bake : [html      ] accessibility_testing/Alt_Text_Testing.tex:[l.233] LaTeX Error: Command \thmheadlevel already defined. 
+KQ_20260326 21:18:39: [WARNING] bake : Baked 1 files, but 1 compilation failed
+KQ_20260326 21:18:39: [ERROR  ] main : Bake failed: Baking resulted in 1 errors:
+html|accessibility_testing/Alt_Text_Testing.tex
+KQ_20260326 21:18:39: [WARNING] main : But, I'll continue, and hope for the best
+KQ_20260326 21:18:39: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+KQ_20260326 21:18:39: [INFO   ] main : Still 1 files to be compiled after bake.
+KQ_20260326 21:18:39: [STATUS ] main : Start frost
+KQ_20260326 21:18:39: [WARNING] frost: There are 7 uncommitted files; should serve only to localhost
+KQ_20260326 21:18:39: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+KQ_20260326 21:18:39: [INFO   ] frost: Found publications/1b9de94f43d458013fbb84aae493733f368d34d8  (tree:7b487c686b5062f82f9bf3c9a16d46359a3a6b38 tag:1b9de94f43d458013fbb84aae493733f368d34d8) 
+KQ_20260326 21:18:39: [STATUS ] frost: Creating tag publications/7807e235cbbab2d8d704179ea7e2c19d23bbc346 for 7807e235cbbab2d8d704179ea7e2c19d23bbc346
+KQ_20260326 21:18:39: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+KQ_20260326 21:18:39: [STATUS ] main : Frost succeeded: Created publications/7807e235cbbab2d8d704179ea7e2c19d23bbc346
+KQ_20260326 21:18:39: [STATUS ] main : Start serve
+KQ_20260326 21:18:39: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+KQ_20260326 21:18:39: [STATUS ] frost: Forced serving (git push -f ximera publications/7807e235cbbab2d8d704179ea7e2c19d23bbc346)
+KQ_20260326 21:18:40: [STATUS ] frost: Forced serving (git push -f ximera 7807e235cbbab2d8d704179ea7e2c19d23bbc346:refs/heads/master)
+KQ_20260326 21:18:40: [STATUS ] main : Serve succeeded: Published  publications/7807e235cbbab2d8d704179ea7e2c19d23bbc346to  http://localhost:2000/ximerafirststeps-2025
+KR_20260326 21:19:00: [INFO   ] main : Running with 'force' (compile/serve)
+KR_20260326 21:19:00: [INFO   ] main : Adding default dependency xmPreamble.tex
+KR_20260326 21:19:00: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+KR_20260326 21:19:00: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:00: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:00: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:00: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:00: [STATUS ] main : Start bake
+KR_20260326 21:19:00: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:00: [STATUS ] bake : There are 1 commands to run for 1 files
+KR_20260326 21:19:00: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+KR_20260326 21:19:05: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+KR_20260326 21:19:05: [STATUS ] bake : Command   1/1 (1) returns OK after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+KR_20260326 21:19:05: [STATUS ] bake : Finished compiling 1 files in 5.0 seconds
+KR_20260326 21:19:05: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+KR_20260326 21:19:05: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+KR_20260326 21:19:05: [INFO   ] main : Still 1 files to be compiled after bake.
+KR_20260326 21:19:05: [STATUS ] main : Start frost
+KR_20260326 21:19:05: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+KR_20260326 21:19:05: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+KR_20260326 21:19:05: [INFO   ] frost: Found publications/7807e235cbbab2d8d704179ea7e2c19d23bbc346  (tree:8eb401970f45033f9fd78d6565fe985615bf2e77 tag:7807e235cbbab2d8d704179ea7e2c19d23bbc346) 
+KR_20260326 21:19:05: [STATUS ] frost: Creating tag publications/8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66 for 8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66
+KR_20260326 21:19:05: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+KR_20260326 21:19:05: [STATUS ] main : Frost succeeded: Created publications/8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66
+KR_20260326 21:19:05: [STATUS ] main : Start serve
+KR_20260326 21:19:06: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+KR_20260326 21:19:06: [STATUS ] frost: Forced serving (git push -f ximera publications/8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66)
+KR_20260326 21:19:06: [STATUS ] frost: Forced serving (git push -f ximera 8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66:refs/heads/master)
+KR_20260326 21:19:06: [STATUS ] main : Serve succeeded: Published  publications/8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66to  http://localhost:2000/ximerafirststeps-2025
+PU_20260326 21:20:23: [INFO   ] main : Running with 'force' (compile/serve)
+PU_20260326 21:20:23: [INFO   ] main : Adding default dependency xmPreamble.tex
+PU_20260326 21:20:23: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+PU_20260326 21:20:23: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:23: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:23: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:23: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:23: [STATUS ] main : Start bake
+PU_20260326 21:20:23: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:23: [STATUS ] bake : There are 1 commands to run for 1 files
+PU_20260326 21:20:23: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+PU_20260326 21:20:28: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+PU_20260326 21:20:28: [STATUS ] bake : Command   1/1 (1) returns OK after 4.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+PU_20260326 21:20:28: [STATUS ] bake : Finished compiling 1 files in 5.1 seconds
+PU_20260326 21:20:28: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+PU_20260326 21:20:28: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+PU_20260326 21:20:28: [INFO   ] main : Still 1 files to be compiled after bake.
+PU_20260326 21:20:28: [STATUS ] main : Start frost
+PU_20260326 21:20:28: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+PU_20260326 21:20:28: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+PU_20260326 21:20:29: [INFO   ] frost: Found publications/8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66  (tree:85562ee00986dc82bf5b4815387f0c52cce3106c tag:8d2e991cfc9b16cfaf1bb27d5174214f9fb64e66) 
+PU_20260326 21:20:29: [STATUS ] frost: Creating tag publications/cc13397bf11880e9ed335b64e6d18aa18bded92a for cc13397bf11880e9ed335b64e6d18aa18bded92a
+PU_20260326 21:20:29: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+PU_20260326 21:20:29: [STATUS ] main : Frost succeeded: Created publications/cc13397bf11880e9ed335b64e6d18aa18bded92a
+PU_20260326 21:20:29: [STATUS ] main : Start serve
+PU_20260326 21:20:29: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+PU_20260326 21:20:29: [STATUS ] frost: Forced serving (git push -f ximera publications/cc13397bf11880e9ed335b64e6d18aa18bded92a)
+PU_20260326 21:20:29: [STATUS ] frost: Forced serving (git push -f ximera cc13397bf11880e9ed335b64e6d18aa18bded92a:refs/heads/master)
+PU_20260326 21:20:29: [STATUS ] main : Serve succeeded: Published  publications/cc13397bf11880e9ed335b64e6d18aa18bded92ato  http://localhost:2000/ximerafirststeps-2025
+YL_20260330 21:36:26: [INFO   ] main : Running with 'force' (compile/serve)
+YL_20260330 21:36:26: [INFO   ] main : Adding default dependency xmPreamble.tex
+YL_20260330 21:36:26: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+YL_20260330 21:36:26: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:26: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:26: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:26: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:26: [STATUS ] main : Start bake
+YL_20260330 21:36:26: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:26: [STATUS ] bake : There are 1 commands to run for 1 files
+YL_20260330 21:36:26: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+YL_20260330 21:36:36: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+YL_20260330 21:36:36: [STATUS ] bake : Command   1/1 (1) returns OK after 9.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+YL_20260330 21:36:36: [STATUS ] bake : Finished compiling 1 files in 10.0 seconds
+YL_20260330 21:36:36: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+YL_20260330 21:36:36: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+YL_20260330 21:36:36: [INFO   ] main : Still 1 files to be compiled after bake.
+YL_20260330 21:36:36: [STATUS ] main : Start frost
+YL_20260330 21:36:36: [WARNING] frost: There are 4 uncommitted files; should serve only to localhost
+YL_20260330 21:36:36: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+YL_20260330 21:36:37: [WARNING] frost: Command git rev-parse --verify --quiet PUB_b8d150145f30645bf5ceb652bcd4158e03c04355 returns 1: 
+YL_20260330 21:36:37: [INFO   ] frost: Found publications/cc13397bf11880e9ed335b64e6d18aa18bded92a  (tree:8f4e869e46bd8d869d5dd7b4ce5dde03ca20a2ba tag:cc13397bf11880e9ed335b64e6d18aa18bded92a) 
+YL_20260330 21:36:37: [STATUS ] frost: Creating tag publications/bf24238872a38cc7ff148fa20ef0cd009b70a58a for bf24238872a38cc7ff148fa20ef0cd009b70a58a
+YL_20260330 21:36:37: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+YL_20260330 21:36:37: [STATUS ] main : Frost succeeded: Created publications/bf24238872a38cc7ff148fa20ef0cd009b70a58a
+YL_20260330 21:36:37: [STATUS ] main : Start serve
+YL_20260330 21:36:37: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+YL_20260330 21:36:37: [STATUS ] frost: Forced serving (git push -f ximera publications/bf24238872a38cc7ff148fa20ef0cd009b70a58a)
+YL_20260330 21:36:40: [STATUS ] frost: Forced serving (git push -f ximera bf24238872a38cc7ff148fa20ef0cd009b70a58a:refs/heads/master)
+YL_20260330 21:36:40: [STATUS ] main : Serve succeeded: Published  publications/bf24238872a38cc7ff148fa20ef0cd009b70a58ato  http://localhost:2000/ximerafirststeps-2025
+AF_20260402 04:34:34: [INFO   ] main : Running with 'force' (compile/serve)
+AF_20260402 04:34:34: [INFO   ] main : Adding default dependency xmPreamble.tex
+AF_20260402 04:34:34: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+AF_20260402 04:34:34: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:34: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:34: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:34: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:34: [STATUS ] main : Start bake
+AF_20260402 04:34:34: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:34: [STATUS ] bake : There are 1 commands to run for 1 files
+AF_20260402 04:34:34: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+AF_20260402 04:34:39: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+AF_20260402 04:34:39: [STATUS ] bake : Command   1/1 (1) returns OK after 5.0 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+AF_20260402 04:34:39: [STATUS ] bake : Finished compiling 1 files in 5.5 seconds
+AF_20260402 04:34:39: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+AF_20260402 04:34:39: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+AF_20260402 04:34:39: [INFO   ] main : Still 1 files to be compiled after bake.
+AF_20260402 04:34:39: [STATUS ] main : Start frost
+AF_20260402 04:34:39: [WARNING] frost: There are 4 uncommitted files; should serve only to localhost
+AF_20260402 04:34:39: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+AF_20260402 04:34:39: [INFO   ] frost: Found publications/bf24238872a38cc7ff148fa20ef0cd009b70a58a  (tree:652f6195b269bd61f474dc5c6b0c84948163c33e tag:bf24238872a38cc7ff148fa20ef0cd009b70a58a) 
+AF_20260402 04:34:39: [STATUS ] frost: Creating tag publications/5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3 for 5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3
+AF_20260402 04:34:39: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+AF_20260402 04:34:39: [STATUS ] main : Frost succeeded: Created publications/5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3
+AF_20260402 04:34:39: [STATUS ] main : Start serve
+AF_20260402 04:34:39: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+AF_20260402 04:34:39: [STATUS ] frost: Forced serving (git push -f ximera publications/5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3)
+AF_20260402 04:34:41: [STATUS ] frost: Forced serving (git push -f ximera 5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3:refs/heads/master)
+AF_20260402 04:34:41: [STATUS ] main : Serve succeeded: Published  publications/5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3to  http://localhost:2000/ximerafirststeps-2025
+ZP_20260511 19:33:43: [INFO   ] main : Running with 'force' (compile/serve)
+ZP_20260511 19:33:43: [INFO   ] main : Adding default dependency xmPreamble.tex
+ZP_20260511 19:33:43: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+ZP_20260511 19:33:43: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:43: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:43: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:43: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:43: [STATUS ] main : Start bake
+ZP_20260511 19:33:43: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:43: [STATUS ] bake : There are 1 commands to run for 1 files
+ZP_20260511 19:33:43: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+ZP_20260511 19:33:52: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+ZP_20260511 19:33:52: [STATUS ] bake : Command   1/1 (1) returns OK after 9.0 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+ZP_20260511 19:33:53: [STATUS ] bake : Finished compiling 1 files in 9.5 seconds
+ZP_20260511 19:33:53: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+ZP_20260511 19:33:53: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+ZP_20260511 19:33:53: [INFO   ] main : Still 1 files to be compiled after bake.
+ZP_20260511 19:33:53: [STATUS ] main : Start frost
+ZP_20260511 19:33:53: [WARNING] frost: There are 4 uncommitted files; should serve only to localhost
+ZP_20260511 19:33:53: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+ZP_20260511 19:33:53: [INFO   ] frost: Found publications/5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3  (tree:f2546627446f8c2298fb6f1502b17218b7bcae8b tag:5b32b0d0ae7d1426f9bdf6249a614f6e3f054dc3) 
+ZP_20260511 19:33:53: [STATUS ] frost: Creating tag publications/b22c02067ca0d4e8f6075be6862bbc7ba8be201b for b22c02067ca0d4e8f6075be6862bbc7ba8be201b
+ZP_20260511 19:33:53: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+ZP_20260511 19:33:53: [STATUS ] main : Frost succeeded: Created publications/b22c02067ca0d4e8f6075be6862bbc7ba8be201b
+ZP_20260511 19:33:53: [STATUS ] main : Start serve
+ZP_20260511 19:33:53: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+ZP_20260511 19:33:53: [STATUS ] frost: Forced serving (git push -f ximera publications/b22c02067ca0d4e8f6075be6862bbc7ba8be201b)
+ZP_20260511 19:33:56: [STATUS ] frost: Forced serving (git push -f ximera b22c02067ca0d4e8f6075be6862bbc7ba8be201b:refs/heads/master)
+ZP_20260511 19:33:57: [STATUS ] main : Serve succeeded: Published  publications/b22c02067ca0d4e8f6075be6862bbc7ba8be201bto  http://localhost:2000/ximerafirststeps-2025
+YU_20260511 19:35:52: [INFO   ] main : Adding default dependency xmPreamble.tex
+YU_20260511 19:35:52: [INFO   ] main : Set compile_sequence=pdf,html (and output_formats=pdf,html)
+YU_20260511 19:35:52: [INFO   ] main : Processing argument 1: .
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/exerciseList.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/exercises/someExercises.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/selectAll.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Tables_Testing.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/xourse_accessible.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivityVariant.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivity.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aGraphicsActivity.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/answer.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/multipleChoice.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/wordChoice.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/hintsAndFollowUp.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesXourse.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourse.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Alt_Text_Testing.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/demo.tex
+YU_20260511 19:35:52: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourseVariant.tex
+YU_20260511 19:35:52: [STATUS ] main : 3 files need compiling
+YU_20260511 19:35:52: [INFO   ] main :   1 accessibility_testing/Tables_Testing.tex
+YU_20260511 19:35:52: [INFO   ] main :   2 accessibility_testing/Alt_Text_Testing.tex
+YU_20260511 19:35:52: [INFO   ] main :   3 accessibility_testing/xourse_accessible.tex
+YU_20260511 19:35:52: [STATUS ] main : Start bake
+YU_20260511 19:35:52: [INFO   ] bake : Added 2 compile commands for file   1/3: accessibility_testing/Tables_Testing.tex
+YU_20260511 19:35:52: [INFO   ] bake : Added 2 compile commands for file   2/3: accessibility_testing/Alt_Text_Testing.tex
+YU_20260511 19:35:52: [INFO   ] bake : Added 2 compile commands for file   3/3: accessibility_testing/xourse_accessible.tex
+YU_20260511 19:35:52: [STATUS ] bake : There are 6 commands to run for 3 files
+YU_20260511 19:35:52: [STATUS ] bake : Command   1/6 (1) starting for  pdf of accessibility_testing/Tables_Testing.tex (pdf|accessibility_testing/Tables_Testing.tex)
+YU_20260511 19:35:52: [STATUS ] bake : Command   2/6 (2) starting for html of accessibility_testing/Tables_Testing.tex (html|accessibility_testing/Tables_Testing.tex)
+YU_20260511 19:36:00: [INFO   ] html : Adapted html being saved as accessibility_testing/Tables_Testing.html (/code/accessibility_testing/Tables_Testing.html)
+YU_20260511 19:36:00: [STATUS ] bake : Command   2/6 (2) returns OK after 7.5 seconds (0 failed) for html of accessibility_testing/Tables_Testing.tex
+YU_20260511 19:36:00: [STATUS ] bake : Command   3/6 (2) starting for  pdf of accessibility_testing/Alt_Text_Testing.tex (pdf|accessibility_testing/Alt_Text_Testing.tex)
+YU_20260511 19:36:02: [INFO   ] bake : Moving /code/accessibility_testing/Tables_Testing.pdf to ximera-downloads/with-answers/accessibility_testing/Tables_Testing.pdf
+YU_20260511 19:36:02: [STATUS ] bake : Command   1/6 (1) returns OK after 10.1 seconds (0 failed) for pdf of accessibility_testing/Tables_Testing.tex
+YU_20260511 19:36:03: [STATUS ] bake : Command   4/6 (2) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+YU_20260511 19:36:09: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+YU_20260511 19:36:09: [STATUS ] bake : Command   4/6 (2) returns OK after 5.5 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+YU_20260511 19:36:09: [STATUS ] bake : Command   5/6 (2) starting for  pdf of accessibility_testing/xourse_accessible.tex (pdf|accessibility_testing/xourse_accessible.tex)
+YU_20260511 19:36:10: [ERROR  ] bake : Compile error in accessibility_testing/Alt_Text_Testing.log:[l.16] Undefined control sequence.    at \BODY ->\includegraphics {missionPatch.jpg} \xmalt <- { A graph of a function labeled $F(x)$ and another function labeled $F'(x)$}
+YU_20260511 19:36:10: [ERROR  ] bake : Compilation of pdf for accessibility_testing/Alt_Text_Testing.tex failed: returns 1 (not 0)
+YU_20260511 19:36:10: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/Alt_Text_Testing.pdf.failed
+YU_20260511 19:36:11: [STATUS ] bake : Command   3/6 (2) returns COMMAND_FAILED after 10.1 seconds (0 failed) for pdf of accessibility_testing/Alt_Text_Testing.tex
+YU_20260511 19:36:12: [STATUS ] bake : Command   6/6 (2) starting for html of accessibility_testing/xourse_accessible.tex (html|accessibility_testing/xourse_accessible.tex)
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.104] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+YU_20260511 19:36:19: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+YU_20260511 19:36:19: [WARNING] bake : Compile error in accessibility_testing/xourse_accessible.online.log: skipping further errorlog; 32 errors found
+YU_20260511 19:36:19: [ERROR  ] bake : Compilation of html for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+YU_20260511 19:36:19: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/xourse_accessible.online.html.failed
+YU_20260511 19:36:19: [STATUS ] bake : Command   6/6 (2) returns COMMAND_FAILED after 7.5 seconds (1 failed) for html of accessibility_testing/xourse_accessible.tex
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.3] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.5] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.7] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.18] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.25] Misplaced alignment tab character &. at l.25  & <- Grammy Wins & Grammy Nominations \\
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.25] Misplaced alignment tab character &. at l.25  & Grammy Wins & <- Grammy Nominations \\
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.27] Misplaced alignment tab character &. at l.27 Fearless & <- 4 & 8 \\
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.27] Misplaced alignment tab character &. at l.27 Fearless & 4 & <- 8 \\
+YU_20260511 19:36:24: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.28] Misplaced alignment tab character &. at l.28 1989 & <- 3 & 7 \\
+YU_20260511 19:36:24: [WARNING] bake : Compile error in accessibility_testing/xourse_accessible.log: skipping further errorlog; 62 errors found
+YU_20260511 19:36:24: [ERROR  ] bake : Compilation of pdf for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+YU_20260511 19:36:24: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/xourse_accessible.pdf.failed
+YU_20260511 19:36:24: [STATUS ] bake : Command   5/6 (2) returns COMMAND_FAILED after 14.0 seconds (2 failed) for pdf of accessibility_testing/xourse_accessible.tex
+YU_20260511 19:36:24: [STATUS ] bake : Finished compiling 3 files in 31.7 seconds
+YU_20260511 19:36:24: [ERROR  ] bake : **************************
+YU_20260511 19:36:24: [ERROR  ] bake : * There were 3 errors: *
+YU_20260511 19:36:24: [ERROR  ] bake : **************************
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/Alt_Text_Testing.tex:[l.16] Undefined control sequence.    at \BODY ->\includegraphics {missionPatch.jpg} \xmalt <- { A graph of a function labeled $F(x)$ and another function labeled $F'(x)$}
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.104] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HCol <- -\lTblrxmColHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HCol -\lTblrxmColHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmRowDiffInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HRow <- -\lTblrRowHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HRow -\lTblrRowHeadInt
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck <- \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck <- colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan <- " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan <- " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow <- -\HCol " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol <- " style="\CellStyle " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle <- " \CellAttributes >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes <- >
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+YU_20260511 19:36:24: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.3] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.5] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.7] LaTeX Error: Can be used only in preamble. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.18] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.25] Misplaced alignment tab character &. at l.25  & <- Grammy Wins & Grammy Nominations \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.25] Misplaced alignment tab character &. at l.25  & Grammy Wins & <- Grammy Nominations \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.27] Misplaced alignment tab character &. at l.27 Fearless & <- 4 & 8 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.27] Misplaced alignment tab character &. at l.27 Fearless & 4 & <- 8 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.28] Misplaced alignment tab character &. at l.28 1989 & <- 3 & 7 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.28] Misplaced alignment tab character &. at l.28 1989 & 3 & <- 7 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.30] LaTeX Error: \begin{center} on input line 17 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.35] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.41] Misplaced alignment tab character &. at l.41  Album & <- Release Date & Lead Single \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.41] Misplaced alignment tab character &. at l.41  Album & Release Date & <- Lead Single \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.43] Misplaced alignment tab character &. at l.43 Midnights & <- October 21, 2022   & Anti--Hero \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.43] Misplaced alignment tab character &. at l.43 Midnights & October 21, 2022   & <- Anti--Hero \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.44] Misplaced alignment tab character &. at l.44 The Tortured Poets Department & <- April 19, 2024 & Fortnight \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.44] Misplaced alignment tab character &. at l.44 The Tortured Poets Department & April 19, 2024 & <- Fortnight \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.46] LaTeX Error: \begin{center} on input line 34 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.52] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.58] Misplaced alignment tab character &. at l.58  Album & <- 1989 & Folklore \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.58] Misplaced alignment tab character &. at l.58  Album & 1989 & <- Folklore \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.60] Misplaced alignment tab character &. at l.60 Release Date & <- October 27, 2014   & Anti--Hero \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.60] Misplaced alignment tab character &. at l.60 Release Date & October 27, 2014   & <- Anti--Hero \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.61] Misplaced alignment tab character &. at l.61 Lead Single & <- July 24, 2020 & Cardigan \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.61] Misplaced alignment tab character &. at l.61 Lead Single & July 24, 2020 & <- Cardigan \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.63] LaTeX Error: \begin{center} on input line 51 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.69] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.70] Misplaced alignment tab character &. at l.70      1 & <- 1 & 1 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.70] Misplaced alignment tab character &. at l.70      1 & 1 & <- 1 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.71] Misplaced alignment tab character &. at l.71      0 & <- 1 & 1 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.71] Misplaced alignment tab character &. at l.71      0 & 1 & <- 1 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.72] Misplaced alignment tab character &. at l.72      0 & <- 0 & 1
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.72] Misplaced alignment tab character &. at l.72      0 & 0 & <- 1
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.73] LaTeX Error: \begin{center} on input line 67 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.78] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.79] Undefined control sequence.    at l.79  \SetCell <- [r=2]{c} & 1-2 & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.79] Misplaced alignment tab character &. at l.79  \SetCell[r=2]{c} & <- 1-2 & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.79] Misplaced alignment tab character &. at l.79  \SetCell[r=2]{c} & 1-2 & <- 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.80] Misplaced alignment tab character &. at <recently read> &
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.80] Misplaced alignment tab character &. at l.80      & 2-2 & <- 2-3     \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.81] Misplaced alignment tab character &. at l.81  3-1 & <- 3-2 & 3-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.81] Misplaced alignment tab character &. at l.81  3-1 & 3-2 & <- 3-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.82] LaTeX Error: \begin{document} on input line 11 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.85] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.86] Undefined control sequence.    at l.86  \SetCell <- [c=2]{c} &  & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.86] Misplaced alignment tab character &. at l.86  \SetCell[c=2]{c} & <- & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.86] Misplaced alignment tab character &. at l.86  \SetCell[c=2]{c} &  & <- 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.87] Misplaced alignment tab character &. at l.87  2-1    & <- 2-2 & 2-3     \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.87] Misplaced alignment tab character &. at l.87  2-1    & 2-2 & <- 2-3     \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.88] Misplaced alignment tab character &. at l.88  3-1 & <- 3-2 & 3-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.88] Misplaced alignment tab character &. at l.88  3-1 & 3-2 & <- 3-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.89] LaTeX Error: \begin{document} on input line 11 ended by \end{tblr}. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.93] LaTeX Error: Environment tblr undefined. 
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.94] Undefined control sequence.    at l.94  \SetCell <- [r=2]{c} & 1-2 & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.94] Misplaced alignment tab character &. at l.94  \SetCell[r=2]{c} & <- 1-2 & 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.94] Misplaced alignment tab character &. at l.94  \SetCell[r=2]{c} & 1-2 & <- 1-3 \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.95] Misplaced alignment tab character &. at <recently read> &
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.95] Misplaced alignment tab character &. at l.95      & 2-2 & <- 2-3     \\
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.96] Misplaced alignment tab character &. at l.96  3-1 & <- 3-2 & 3-3
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.96] Misplaced alignment tab character &. at l.96  3-1 & 3-2 & <- 3-3
+YU_20260511 19:36:24: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.97] LaTeX Error: \begin{document} on input line 11 ended by \end{tblr}. 
+YU_20260511 19:36:24: [WARNING] bake : Baked 3 files, but 3 compilations failed
+YU_20260511 19:36:24: [ERROR  ] main : Bake failed: Baking resulted in 3 errors:
+pdf|accessibility_testing/Alt_Text_Testing.tex
+pdf|accessibility_testing/xourse_accessible.tex
+html|accessibility_testing/xourse_accessible.tex
+YU_20260511 19:36:24: [WARNING] main : But, I'll continue, and hope for the best
+YU_20260511 19:36:24: [INFO   ] main : Mmm, file accessibility_testing/Tables_Testing.tex still needs compilation.
+YU_20260511 19:36:24: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+YU_20260511 19:36:24: [INFO   ] main : Mmm, file accessibility_testing/xourse_accessible.tex still needs compilation.
+YU_20260511 19:36:24: [INFO   ] main : Still 3 files to be compiled after bake.
+YU_20260511 19:36:24: [STATUS ] main : Start frost
+YU_20260511 19:36:24: [WARNING] frost: There are 15 uncommitted files; should serve only to localhost
+YU_20260511 19:36:24: [WARNING] frost: There are 3 file to be compiled; should serve only to localhost
+YU_20260511 19:36:24: [INFO   ] frost: Adding XOURSE aFirstXourse.tex (A First Ximera Xourse)
+YU_20260511 19:36:24: [INFO   ] frost: Adding XOURSE accessibility_testing/xourse_accessible.tex (Testing Accessibility)
+YU_20260511 19:36:24: [WARNING] frost: Label xim_aFirstActivity already used in aFirstFolder/aFirstActivityVariant.html; ignoring for aFirstFolder/aFirstActivity.html
+YU_20260511 19:36:24: [WARNING] frost: Label def_absolute_value already used in aFirstFolder/aFirstActivityVariant.html; ignoring for aFirstFolder/aFirstActivity.html
+YU_20260511 19:36:24: [INFO   ] frost: Adding XOURSE aFirstXourseVariant.tex (A First Ximera Xourse (Variant Layout, only on new ximeraServer))
+YU_20260511 19:36:24: [INFO   ] frost: Adding XOURSE aListOfExercisesXourse.tex (A List Of Exercises (works only on OSU server))
+YU_20260511 19:36:25: [INFO   ] frost: Found publications/b22c02067ca0d4e8f6075be6862bbc7ba8be201b  (tree:5852434ba26bfeec8901c6651774f35543bdda13 tag:b22c02067ca0d4e8f6075be6862bbc7ba8be201b) 
+YU_20260511 19:36:25: [STATUS ] frost: Creating tag publications/89f1775b185efffa1a5de2513ca823cd508b90f9 for 89f1775b185efffa1a5de2513ca823cd508b90f9
+YU_20260511 19:36:25: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+YU_20260511 19:36:25: [STATUS ] main : Frost succeeded: Created publications/89f1775b185efffa1a5de2513ca823cd508b90f9
+YU_20260511 19:36:25: [STATUS ] main : Start serve
+YU_20260511 19:36:25: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+YU_20260511 19:36:25: [STATUS ] frost: Forced serving (git push -f ximera publications/89f1775b185efffa1a5de2513ca823cd508b90f9)
+YU_20260511 19:36:26: [STATUS ] frost: Forced serving (git push -f ximera 89f1775b185efffa1a5de2513ca823cd508b90f9:refs/heads/master)
+YU_20260511 19:36:26: [STATUS ] main : Serve succeeded: Published  publications/89f1775b185efffa1a5de2513ca823cd508b90f9to  http://localhost:2000/ximerafirststeps-2025
+DA_20260511 19:38:07: [INFO   ] main : Running with 'force' (compile/serve)
+DA_20260511 19:38:07: [INFO   ] main : Adding default dependency xmPreamble.tex
+DA_20260511 19:38:07: [INFO   ] main : Set compile_sequence=html (and output_formats=html)
+DA_20260511 19:38:07: [INFO   ] main : Processing argument 1: accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:07: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:07: [INFO   ] main : Explicitly force (re-) compilation of accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:07: [STATUS ] main : 1 file needs compiling: accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:07: [STATUS ] main : Start bake
+DA_20260511 19:38:07: [INFO   ] bake : Added 1 compile commands for file   1/1: accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:07: [STATUS ] bake : There are 1 commands to run for 1 files
+DA_20260511 19:38:07: [STATUS ] bake : Command   1/1 (1) starting for html of accessibility_testing/Alt_Text_Testing.tex (html|accessibility_testing/Alt_Text_Testing.tex)
+DA_20260511 19:38:12: [INFO   ] html : Adapted html being saved as accessibility_testing/Alt_Text_Testing.html (/code/accessibility_testing/Alt_Text_Testing.html)
+DA_20260511 19:38:12: [STATUS ] bake : Command   1/1 (1) returns OK after 5.0 seconds (0 failed) for html of accessibility_testing/Alt_Text_Testing.tex
+DA_20260511 19:38:12: [STATUS ] bake : Finished compiling 1 files in 5.5 seconds
+DA_20260511 19:38:12: [STATUS ] main : Bake succeeded: Baked 1 files, no errors found
+DA_20260511 19:38:12: [INFO   ] main : Mmm, file accessibility_testing/Alt_Text_Testing.tex still needs compilation.
+DA_20260511 19:38:12: [INFO   ] main : Still 1 files to be compiled after bake.
+DA_20260511 19:38:12: [STATUS ] main : Start frost
+DA_20260511 19:38:12: [WARNING] frost: There are 17 uncommitted files; should serve only to localhost
+DA_20260511 19:38:12: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+DA_20260511 19:38:13: [INFO   ] frost: Found publications/89f1775b185efffa1a5de2513ca823cd508b90f9  (tree:190eca98ffb8605eeacb7fa0b09a9959b6e5e681 tag:89f1775b185efffa1a5de2513ca823cd508b90f9) 
+DA_20260511 19:38:13: [STATUS ] frost: Creating tag publications/dae727265bf47badf08f4a9c241b248741fec3ea for dae727265bf47badf08f4a9c241b248741fec3ea
+DA_20260511 19:38:13: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+DA_20260511 19:38:13: [STATUS ] main : Frost succeeded: Created publications/dae727265bf47badf08f4a9c241b248741fec3ea
+DA_20260511 19:38:13: [STATUS ] main : Start serve
+DA_20260511 19:38:13: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+DA_20260511 19:38:13: [STATUS ] frost: Forced serving (git push -f ximera publications/dae727265bf47badf08f4a9c241b248741fec3ea)
+DA_20260511 19:38:13: [STATUS ] frost: Forced serving (git push -f ximera dae727265bf47badf08f4a9c241b248741fec3ea:refs/heads/master)
+DA_20260511 19:38:14: [STATUS ] main : Serve succeeded: Published  publications/dae727265bf47badf08f4a9c241b248741fec3eato  http://localhost:2000/ximerafirststeps-2025
