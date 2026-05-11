@@ -35263,3 +35263,115 @@ OC_20260511 19:39:35: [INFO   ] frost: Publishing to localhost: http://localhost
 OC_20260511 19:39:35: [STATUS ] frost: Forced serving (git push -f ximera publications/46b1fcd8e2153c0f7dcb212fdaffc5a3cb827b1f)
 OC_20260511 19:39:36: [STATUS ] frost: Forced serving (git push -f ximera 46b1fcd8e2153c0f7dcb212fdaffc5a3cb827b1f:refs/heads/master)
 OC_20260511 19:39:36: [STATUS ] main : Serve succeeded: Published  publications/46b1fcd8e2153c0f7dcb212fdaffc5a3cb827b1fto  http://localhost:2000/ximerafirststeps-2025
+WH_20260511 19:41:28: [INFO   ] main : Adding default dependency xmPreamble.tex
+WH_20260511 19:41:28: [INFO   ] main : Set compile_sequence=pdf,html (and output_formats=pdf,html)
+WH_20260511 19:41:28: [INFO   ] main : Processing argument 1: .
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivity.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aGraphicsActivity.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/answer.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/multipleChoice.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/selectAll.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/wordChoice.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/hintsAndFollowUp.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesXourse.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/exercises/someExercises.tex
+WH_20260511 19:41:28: [WARNING] files: accessibility_testing/xourse_accessible.tex includes /code/accessibility_testing/Tables_Testing, but this file nor variants with .sty or .tex seem to exist
+WH_20260511 19:41:28: [ERROR  ] files: Could not open file /code/accessibility_testing/Tables_Testing: /code/accessibility_testing/Tables_Testing: No such file or directory
+WH_20260511 19:41:28: [WARNING] files: No modified info for dependency accessibility_testing/Tables_Testing of accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NEEDS_COMPILATIONS for accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourse.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for accessibility_testing/Alt_Text_Testing.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/demo.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aListOfExercisesFolder/exerciseList.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstFolder/aFirstActivityVariant.tex
+WH_20260511 19:41:28: [INFO   ] files: Marked source tex          NO_COMPILATION     for aFirstXourseVariant.tex
+WH_20260511 19:41:28: [STATUS ] main : 1 file needs compiling: accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:28: [STATUS ] main : Start bake
+WH_20260511 19:41:28: [INFO   ] bake : Added 2 compile commands for file   1/1: accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:28: [STATUS ] bake : There are 2 commands to run for 1 files
+WH_20260511 19:41:28: [STATUS ] bake : Command   1/2 (1) starting for  pdf of accessibility_testing/xourse_accessible.tex (pdf|accessibility_testing/xourse_accessible.tex)
+WH_20260511 19:41:28: [STATUS ] bake : Command   2/2 (2) starting for html of accessibility_testing/xourse_accessible.tex (html|accessibility_testing/xourse_accessible.tex)
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.104] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.106] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+WH_20260511 19:41:37: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.online.log:[l.107] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+WH_20260511 19:41:37: [WARNING] bake : Compile error in accessibility_testing/xourse_accessible.online.log: skipping further errorlog; 32 errors found
+WH_20260511 19:41:37: [ERROR  ] bake : Compilation of html for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+WH_20260511 19:41:37: [INFO   ] bake : Moving output of failed compilation to /code/accessibility_testing/xourse_accessible.online.html.failed
+WH_20260511 19:41:37: [STATUS ] bake : Command   2/2 (2) returns COMMAND_FAILED after 8.5 seconds (0 failed) for html of accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:38: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:  LaTeX Error: File `./Tables_Testing.tex' not found. 
+WH_20260511 19:41:38: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.11] Emergency stop.                at <read *>
+WH_20260511 19:41:38: [ERROR  ] bake : Compile error in accessibility_testing/xourse_accessible.log:[l.11] ==> Fatal error occurred, no output PDF file produced! at 
+WH_20260511 19:41:38: [ERROR  ] bake : Compilation of pdf for accessibility_testing/xourse_accessible.tex failed: returns 1 (not 0)
+WH_20260511 19:41:38: [STATUS ] bake : Command   1/2 (1) returns COMMAND_FAILED after 9.5 seconds (1 failed) for pdf of accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:38: [STATUS ] bake : Finished compiling 1 files in 10.0 seconds
+WH_20260511 19:41:38: [ERROR  ] bake : **************************
+WH_20260511 19:41:38: [ERROR  ] bake : * There were 2 errors: *
+WH_20260511 19:41:38: [ERROR  ] bake : **************************
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.104] LaTeX Error: Missing \begin{document} in `ximera.cfg'. 
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> \lTblrRowHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{rowhead}+0
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.106] Undefined control sequence.    at <argument> <tr id="row-\TableNo -\HRow <- -">
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmColHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \__tblr_prop_item:ne <- {inner}{xmcolhead}+0
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmColDiffInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HCol <- -\lTblrxmColHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HCol -\lTblrxmColHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \lTblrxmRowDiffInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] You can't use `\numexpr' in horizontal mode. at \int_set:Nn #1#2->#1=\__int_eval:w <- #2\__int_eval_end:
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HRow <- -\lTblrRowHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> \HRow -\lTblrRowHeadInt
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck <- \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck <- colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan <- " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan <- " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow <- -\HCol " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol <- " style="\CellStyle " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle <- " \CellAttributes >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at <argument> <\:testcell \space \:colgroupcheck \:testcheck colspan="\HMultispan " rowspan="\HRowspan " id="cell\TableNo -\HRow -\HCol " style="\CellStyle " \CellAttributes <- >
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <- <1\ifnum \lTblrxmRowDiffInt <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Undefined control sequence.    at \:testcell ->\ifnum \lTblrxmColDiffInt <1\ifnum \lTblrxmRowDiffInt <- <1td\else \ifnum \HRowspan >1th\space scope="rowgroup"\else th\space scope="row"\fi \fi \else \ifnum \lTblrxmRowDiffInt <1\ifnum \HMultispan >1th\space scope="colgroup"\else th\space s...
+WH_20260511 19:41:38: [ERROR  ] bake : [html      ] accessibility_testing/xourse_accessible.tex:[l.107] Missing number, treated as zero. at <to be read again> <- <
+WH_20260511 19:41:38: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:  LaTeX Error: File `./Tables_Testing.tex' not found. 
+WH_20260511 19:41:38: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.11] Emergency stop.                at <read *>
+WH_20260511 19:41:38: [ERROR  ] bake : [pdf       ] accessibility_testing/xourse_accessible.tex:[l.11] ==> Fatal error occurred, no output PDF file produced! at 
+WH_20260511 19:41:38: [WARNING] bake : Baked 1 files, but 2 compilations failed
+WH_20260511 19:41:38: [ERROR  ] main : Bake failed: Baking resulted in 2 errors:
+html|accessibility_testing/xourse_accessible.tex
+pdf|accessibility_testing/xourse_accessible.tex
+WH_20260511 19:41:38: [WARNING] main : But, I'll continue, and hope for the best
+WH_20260511 19:41:38: [INFO   ] main : Mmm, file accessibility_testing/xourse_accessible.tex still needs compilation.
+WH_20260511 19:41:38: [INFO   ] main : Still 1 files to be compiled after bake.
+WH_20260511 19:41:38: [STATUS ] main : Start frost
+WH_20260511 19:41:38: [WARNING] frost: There are 6 uncommitted files; should serve only to localhost
+WH_20260511 19:41:38: [WARNING] frost: There are 1 file to be compiled; should serve only to localhost
+WH_20260511 19:41:38: [INFO   ] frost: Adding XOURSE aListOfExercisesXourse.tex (A List Of Exercises (works only on OSU server))
+WH_20260511 19:41:39: [INFO   ] frost: Adding XOURSE accessibility_testing/xourse_accessible.tex (Testing Accessibility)
+WH_20260511 19:41:39: [WARNING] frost: Label def_absolute_value already used in aFirstFolder/aFirstActivityVariant.html; ignoring for aFirstFolder/aFirstActivity.html
+WH_20260511 19:41:39: [WARNING] frost: Label xim_aFirstActivity already used in aFirstFolder/aFirstActivityVariant.html; ignoring for aFirstFolder/aFirstActivity.html
+WH_20260511 19:41:39: [INFO   ] frost: Adding XOURSE aFirstXourseVariant.tex (A First Ximera Xourse (Variant Layout, only on new ximeraServer))
+WH_20260511 19:41:39: [INFO   ] frost: Adding XOURSE aFirstXourse.tex (A First Ximera Xourse)
+WH_20260511 19:41:39: [WARNING] frost: Command git rev-parse --verify --quiet PUB_3876db0df92602545b348bb3f3d132fd1e4f6deb returns 1: 
+WH_20260511 19:41:39: [WARNING] frost: Command git add -f accessibility_testing/Tables_Testing returns 1: fatal: pathspec 'accessibility_testing/Tables_Testing' did not match any files
+WH_20260511 19:41:39: [INFO   ] frost: Found publications/46b1fcd8e2153c0f7dcb212fdaffc5a3cb827b1f  (tree:69c560e6d8582f19cb14c0e0db4ec4a0021252c3 tag:46b1fcd8e2153c0f7dcb212fdaffc5a3cb827b1f) 
+WH_20260511 19:41:39: [STATUS ] frost: Creating tag publications/49035bf8d96f5488d14c8a384e4b190cbebcc707 for 49035bf8d96f5488d14c8a384e4b190cbebcc707
+WH_20260511 19:41:39: [WARNING] frost: BIZAR: .git folder owned by root ...? Skipping resetting ownership.
+WH_20260511 19:41:39: [STATUS ] main : Frost succeeded: Created publications/49035bf8d96f5488d14c8a384e4b190cbebcc707
+WH_20260511 19:41:39: [STATUS ] main : Start serve
+WH_20260511 19:41:39: [INFO   ] frost: Publishing to localhost: http://localhost:2000/ximerafirststeps-2025.git
+WH_20260511 19:41:39: [STATUS ] frost: Forced serving (git push -f ximera publications/49035bf8d96f5488d14c8a384e4b190cbebcc707)
+WH_20260511 19:41:40: [STATUS ] frost: Forced serving (git push -f ximera 49035bf8d96f5488d14c8a384e4b190cbebcc707:refs/heads/master)
+WH_20260511 19:41:40: [STATUS ] main : Serve succeeded: Published  publications/49035bf8d96f5488d14c8a384e4b190cbebcc707to  http://localhost:2000/ximerafirststeps-2025
