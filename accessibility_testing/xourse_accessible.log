@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  11 MAY 2026 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.15)  11 MAY 2026 19:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -778,28 +778,88 @@ Package hyperref Info: Link coloring ON on input line 6.
 
 [2
 
-]
+] (./Alt_Text_Testing.tex
 
-! LaTeX Error: File `./Tables_Testing.tex' not found.
+./Alt_Text_Testing.tex:3: LaTeX Error: Can be used only in preamble.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ->\errmessage  LaTeX Error: Can be used only in preamble.
 
-Enter file name: 
-./xourse_accessible.tex:11: Emergency stop.
-<read *> 
-         
-l.11 \activity{./Tables_Testing}
-                                ^^M
-*** (cannot \read from terminal in nonstop modes)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                  
+l.3 \usepackage
+               {tabularray}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
- 
+
+./Alt_Text_Testing.tex:5: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ->\errmessage  LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                  
+l.5 \usepackage
+               {TailorSwiftBotPublic}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Alt_Text_Testing.tex:7: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ->\errmessage  LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                  
+l.7 \usepackage
+               {xcolor}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../xmPictures/missionPatch.jpg, id=17, 777.6252pt x 779.7933pt>
+File: ../xmPictures/missionPatch.jpg Graphic file (type jpg)
+<use ../xmPictures/missionPatch.jpg>
+Package pdftex.def Info: ../xmPictures/missionPatch.jpg  used on input line 16.
+(pdftex.def)             Requested size: 777.62329pt x 779.7914pt.
+)
+
+[3
+
+
+ <../xmPictures/missionPatch.jpg>]
+*********************************************************************
+(./xourse_accessible.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-05-26>
+ ***********
+Package rerunfilecheck Info: File `xourse_accessible.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 35107 strings out of 469010
- 795227 string characters out of 5456196
- 1272361 words of memory out of 5000000
- 62899 multiletter control sequences out of 15000+600000
- 628378 words of font info for 46 fonts, out of 8000000 for 9000
+ 35143 strings out of 469010
+ 796310 string characters out of 5456196
+ 1272370 words of memory out of 5000000
+ 62927 multiletter control sequences out of 15000+600000
+ 628731 words of font info for 47 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 135i,5n,138p,754b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-./xourse_accessible.tex:11:  ==> Fatal error occurred, no output PDF file produced!
+ 135i,6n,138p,754b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on xourse_accessible.pdf (3 pages, 373414 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+
